@@ -31,6 +31,10 @@ function shuffle(arr) {
   return a;
 }
 
+function requiredCardCount(blackCard) {
+  return blackCard && blackCard.doble_respuesta ? 2 : 1;
+}
+
 function generateRoomCode() {
   const letters = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
   let code;
@@ -69,11 +73,13 @@ function publicRoom(room) {
     lastRoundResult: null,
     revealedSubmissions: null,
     gameWinner: null,
+    requiredCardCount: 1,
   };
 
   // Revelar carta negra solo desde 'choosing'
   if (['choosing', 'voting', 'results', 'game_over'].includes(room.phase)) {
     pub.currentBlackCard = room.currentBlackCard;
+    pub.requiredCardCount = requiredCardCount(room.currentBlackCard);
   }
 
   // Revelar todas las respuestas al final de la ronda
@@ -260,8 +266,7 @@ io.on('connection', socket => {
     if (hdp.id === socket.id) return cb({ success: false, error: 'El HDP no envía cartas.' });
     if (room.submissions[socket.id]) return cb({ success: false, error: 'Ya enviaste tu respuesta.' });
 
-    const expectedCount = (room.currentBlackCard && room.currentBlackCard.doble_respuesta) ? 2 : 1;
-
+    const expectedCount = requiredCardCount(room.currentBlackCard);
     if (!Array.isArray(cardIndices) || cardIndices.length !== expectedCount) {
       return cb({ success: false, error: `Debes enviar exactamente ${expectedCount} carta(s).` });
     }
@@ -478,12 +483,15 @@ io.on('connection', socket => {
 
       if (nonHdpPlayers.length > 0 && validSubmissions.length >= nonHdpPlayers.filter(p => !p.isSpectator).length) {
         room.shuffledSubmissions = shuffle(
-          validSubmissions.map(([playerId, card]) => ({ playerId, card }))
+          validSubmissions.map(([playerId, submCards]) => ({
+            playerId,
+            cards: Array.isArray(submCards) ? submCards : [submCards],
+          }))
         );
         room.phase = 'voting';
         io.to(roomCode).emit('room_updated', publicRoom(room));
         io.to(hdp.id).emit('voting_submissions', {
-          submissions: room.shuffledSubmissions.map(s => s.card),
+          submissions: room.shuffledSubmissions.map(s => s.cards.map(c => c.texto)),
         });
       } else {
         io.to(roomCode).emit('room_updated', publicRoom(room));

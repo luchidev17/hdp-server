@@ -1,730 +1,3369 @@
 [
-  { "id": 1, "tipo": "blanca", "texto": "Un volquete lleno de cadáveres" },
-  { "id": 2, "tipo": "blanca", "texto": "Un bebé de caca" },
-  { "id": 3, "tipo": "blanca", "texto": "El olor a billete viejo" },
-  { "id": 4, "tipo": "blanca", "texto": "El padre Grassi" },
-  { "id": 5, "tipo": "blanca", "texto": "Una paja bolsillera" },
-  { "id": 6, "tipo": "blanca", "texto": "La cura contra el cáncer" },
-  { "id": 7, "tipo": "blanca", "texto": "El pibe con el que debutó Pele" },
-  { "id": 8, "tipo": "blanca", "texto": "Una milanesa de soja" },
-  { "id": 9, "tipo": "blanca", "texto": "Un disparo en la cabeza" },
-  { "id": 10, "tipo": "blanca", "texto": "La selección rusa de volley" },
-  { "id": 11, "tipo": "blanca", "texto": "Responder un \"te amo\" con un \"gracias\"" },
-  { "id": 12, "tipo": "blanca", "texto": "Un Falcon verde" },
-  { "id": 13, "tipo": "blanca", "texto": "El Viagra" },
-  { "id": 14, "tipo": "blanca", "texto": "El poliamor" },
-  { "id": 15, "tipo": "blanca", "texto": "Un mes sin masacres en Estados Unidos" },
-  { "id": 16, "tipo": "blanca", "texto": "El ex presidente Pinedo" },
-  { "id": 17, "tipo": "blanca", "texto": "Un antojo de carne humana" },
-  { "id": 18, "tipo": "blanca", "texto": "Ir a pilates" },
-  { "id": 19, "tipo": "blanca", "texto": "Un ano contra natura" },
-  { "id": 20, "tipo": "blanca", "texto": "Un cinturón de castidad" },
-  { "id": 21, "tipo": "blanca", "texto": "Una guerra de almohadas" },
-  { "id": 22, "tipo": "blanca", "texto": "Los millennials" },
-  { "id": 23, "tipo": "blanca", "texto": "El fantasma de la B" },
-  { "id": 24, "tipo": "blanca", "texto": "Ser mufa" },
-  { "id": 25, "tipo": "blanca", "texto": "Chuck Norris" },
-  { "id": 26, "tipo": "blanca", "texto": "La verdad, toda la verdad y nada más que la verdad" },
-  { "id": 27, "tipo": "blanca", "texto": "Un detector de sarcasmo" },
-  { "id": 28, "tipo": "blanca", "texto": "Compartir jeringas" },
-  { "id": 29, "tipo": "blanca", "texto": "El aro del corpiño" },
-  { "id": 30, "tipo": "blanca", "texto": "El tránsito lento" },
-  { "id": 31, "tipo": "blanca", "texto": "Mi entrepierna" },
-  { "id": 32, "tipo": "blanca", "texto": "Dos niñas de 7 años" },
-  { "id": 33, "tipo": "blanca", "texto": "Un secuestro express" },
-  { "id": 34, "tipo": "blanca", "texto": "Andar a caballo en pelotas" },
-  { "id": 35, "tipo": "blanca", "texto": "¡Essssta!" },
-  { "id": 36, "tipo": "blanca", "texto": "Un hippie con OSDE" },
-  { "id": 37, "tipo": "blanca", "texto": "Un alto guiso" },
-  { "id": 38, "tipo": "blanca", "texto": "La flora intestinal" },
-  { "id": 39, "tipo": "blanca", "texto": "Enterarme de que mi vieja es insaciable" },
-  { "id": 40, "tipo": "blanca", "texto": "Un disfraz de empanada" },
-  { "id": 41, "tipo": "blanca", "texto": "Los piojos" },
-  { "id": 42, "tipo": "blanca", "texto": "Poner la otra mejilla" },
-  { "id": 43, "tipo": "blanca", "texto": "Salir de joda los martes" },
-  { "id": 44, "tipo": "blanca", "texto": "Un uruguayo llamado Washington" },
-  { "id": 45, "tipo": "blanca", "texto": "Enterarme de que su ex la tenía mucho más grande" },
-  { "id": 46, "tipo": "blanca", "texto": "Laburar los findes" },
-  { "id": 47, "tipo": "blanca", "texto": "Donald Trump" },
-  { "id": 48, "tipo": "blanca", "texto": "Un enorme y gigantesco clítoris" },
-  { "id": 49, "tipo": "blanca", "texto": "Guantánamo" },
-  { "id": 50, "tipo": "blanca", "texto": "Eyacular en gravedad cero" },
-  { "id": 51, "tipo": "blanca", "texto": "Esperar a que cumpla 18" },
-  { "id": 52, "tipo": "blanca", "texto": "Chupar de abajo para arriba" },
-  { "id": 53, "tipo": "blanca", "texto": "Separar siameses" },
-  { "id": 54, "tipo": "blanca", "texto": "La Cámara de Diputados" },
-  { "id": 55, "tipo": "blanca", "texto": "Apoyar el traste en la estufa" },
-  { "id": 56, "tipo": "blanca", "texto": "Un pingüino empetrolado" },
-  { "id": 57, "tipo": "blanca", "texto": "Rabas hechas con prepucios" },
-  { "id": 58, "tipo": "blanca", "texto": "Ejercer el derecho de prima nocte con todos mis amigos" },
-  { "id": 59, "tipo": "blanca", "texto": "Anonymous" },
-  { "id": 60, "tipo": "blanca", "texto": "36 vírgenes por un trabajo hecho a medias" },
-  { "id": 61, "tipo": "blanca", "texto": "La Marcha Peronista" },
-  { "id": 62, "tipo": "blanca", "texto": "El Dirty Sanchez" },
-  { "id": 63, "tipo": "blanca", "texto": "Pezones bizcos" },
-  { "id": 64, "tipo": "blanca", "texto": "Dar el vuelto con caramelos" },
-  { "id": 65, "tipo": "blanca", "texto": "Entrarle como gallego a la gaita" },
-  { "id": 66, "tipo": "blanca", "texto": "Hacerle caso a las voces en mi cabeza" },
-  { "id": 67, "tipo": "blanca", "texto": "Forros sabor cordero patagónico" },
-  { "id": 68, "tipo": "blanca", "texto": "El líquido azul de las propagandas de toallitas" },
-  { "id": 69, "tipo": "blanca", "texto": "Ese festival chino donde comen carne de perro" },
-  { "id": 70, "tipo": "blanca", "texto": "La subtrenmetrocleta" },
-  { "id": 71, "tipo": "blanca", "texto": "El pibe de Mi pobre angelito" },
-  { "id": 72, "tipo": "blanca", "texto": "La década ganada" },
-  { "id": 73, "tipo": "blanca", "texto": "Quebrar en la previa" },
-  { "id": 74, "tipo": "blanca", "texto": "Un banco de esperma" },
-  { "id": 75, "tipo": "blanca", "texto": "La Bonaerense" },
-  { "id": 76, "tipo": "blanca", "texto": "La 12" },
-  { "id": 77, "tipo": "blanca", "texto": "Imponer socialmente el Día de la Concha" },
-  { "id": 78, "tipo": "blanca", "texto": "El sex shop al final de la galería" },
-  { "id": 79, "tipo": "blanca", "texto": "Sentir que me están cagando" },
-  { "id": 80, "tipo": "blanca", "texto": "Frodo, Sam y los otros dos" },
-  { "id": 81, "tipo": "blanca", "texto": "Consumir drogas duras" },
-  { "id": 82, "tipo": "blanca", "texto": "Una bicicleta con dos vergas en lugar de manubrio" },
-  { "id": 83, "tipo": "blanca", "texto": "Maiameeeee" },
-  { "id": 84, "tipo": "blanca", "texto": "La navaja de MacGyver" },
-  { "id": 85, "tipo": "blanca", "texto": "Un mal flash" },
-  { "id": 86, "tipo": "blanca", "texto": "Cagar al prójimo" },
-  { "id": 87, "tipo": "blanca", "texto": "La santa Biblia" },
-  { "id": 88, "tipo": "blanca", "texto": "Larry, Curly y Moe" },
-  { "id": 89, "tipo": "blanca", "texto": "Irse a vivir al Uritorco" },
-  { "id": 90, "tipo": "blanca", "texto": "La justicia por mano propia" },
-  { "id": 91, "tipo": "blanca", "texto": "El testículo del medio" },
-  { "id": 92, "tipo": "blanca", "texto": "El amor de Viggo Mortensen por San Lorenzo" },
-  { "id": 93, "tipo": "blanca", "texto": "El Gauchito Gil" },
-  { "id": 94, "tipo": "blanca", "texto": "Los barones del conurbano" },
-  { "id": 95, "tipo": "blanca", "texto": "La homofobia" },
-  { "id": 96, "tipo": "blanca", "texto": "La clase obrera" },
-  { "id": 97, "tipo": "blanca", "texto": "Fingir el orgasmo" },
-  { "id": 98, "tipo": "blanca", "texto": "Ponerla" },
-  { "id": 99, "tipo": "blanca", "texto": "Un sueño húmedo" },
-  { "id": 100, "tipo": "blanca", "texto": "La gilada" },
-  { "id": 101, "tipo": "blanca", "texto": "El gol de Diego a los ingleses" },
-  { "id": 102, "tipo": "blanca", "texto": "La SIDE" },
-  { "id": 103, "tipo": "blanca", "texto": "Pobreza digna" },
-  { "id": 104, "tipo": "blanca", "texto": "Un grupo de viejos fachos" },
-  { "id": 105, "tipo": "blanca", "texto": "El anillo de cuero" },
-  { "id": 106, "tipo": "blanca", "texto": "El anticristo" },
-  { "id": 107, "tipo": "blanca", "texto": "Un perrito con ruedas en lugar de patas traseras" },
-  { "id": 108, "tipo": "blanca", "texto": "Cambiar de género" },
-  { "id": 109, "tipo": "blanca", "texto": "Un guiso de escrotos" },
-  { "id": 110, "tipo": "blanca", "texto": "La pica entre colectiveros y taxistas" },
-  { "id": 111, "tipo": "blanca", "texto": "Depilarse el pecho" },
-  { "id": 112, "tipo": "blanca", "texto": "La siesta santiagueña" },
-  { "id": 113, "tipo": "blanca", "texto": "Un masaje de próstata" },
-  { "id": 114, "tipo": "blanca", "texto": "Los kelpers" },
-  { "id": 115, "tipo": "blanca", "texto": "Hacerte el orto" },
-  { "id": 116, "tipo": "blanca", "texto": "El tipo con el que fantasea tu vieja" },
-  { "id": 117, "tipo": "blanca", "texto": "Los piqueteros" },
-  { "id": 118, "tipo": "blanca", "texto": "Tener cara de boludo" },
-  { "id": 119, "tipo": "blanca", "texto": "El hijo de puta que se está cogiendo al amor de tu vida" },
-  { "id": 120, "tipo": "blanca", "texto": "El negro que muere primero en las películas mientras vos estás jugando a esto" },
-  { "id": 121, "tipo": "blanca", "texto": "Un Pollock de caca" },
-  { "id": 122, "tipo": "blanca", "texto": "Viajar en la línea Sarmiento" },
-  { "id": 123, "tipo": "blanca", "texto": "Una fuerte tendencia a la necrofilia" },
-  { "id": 124, "tipo": "blanca", "texto": "Un señor desnudo llorando en la calle" },
-  { "id": 125, "tipo": "blanca", "texto": "Dos semanas de retraso" },
-  { "id": 126, "tipo": "blanca", "texto": "Oler la ropa interior de tu vieja" },
-  { "id": 127, "tipo": "blanca", "texto": "Los niños rata" },
-  { "id": 128, "tipo": "blanca", "texto": "Mi colección de rosarios anales" },
-  { "id": 129, "tipo": "blanca", "texto": "Un volcán de semen" },
-  { "id": 130, "tipo": "blanca", "texto": "La asfixia erótica" },
-  { "id": 131, "tipo": "blanca", "texto": "Salir del clóset" },
-  { "id": 132, "tipo": "blanca", "texto": "Un culo peludo" },
-  { "id": 133, "tipo": "blanca", "texto": "El gigoló de Rosario" },
-  { "id": 134, "tipo": "blanca", "texto": "Diciembre de 2001" },
-  { "id": 135, "tipo": "blanca", "texto": "La celulitis" },
-  { "id": 136, "tipo": "blanca", "texto": "Las invasiones bárbaras" },
-  { "id": 137, "tipo": "blanca", "texto": "Los fluidos vaginales" },
-  { "id": 138, "tipo": "blanca", "texto": "El tipo que piensa las placas de Crónica" },
-  { "id": 139, "tipo": "blanca", "texto": "La del mono" },
-  { "id": 140, "tipo": "blanca", "texto": "Pinchar forros" },
-  { "id": 141, "tipo": "blanca", "texto": "Sacar los pelos de la rejilla del baño" },
-  { "id": 142, "tipo": "blanca", "texto": "Aguantar los trapos" },
-  { "id": 143, "tipo": "blanca", "texto": "Borrar una publicación porque nadie le dio like" },
-  { "id": 144, "tipo": "blanca", "texto": "Cenar atún directo de la lata" },
-  { "id": 145, "tipo": "blanca", "texto": "Un supositorio" },
-  { "id": 146, "tipo": "blanca", "texto": "Meter los cuernos" },
-  { "id": 147, "tipo": "blanca", "texto": "La fiesta" },
-  { "id": 148, "tipo": "blanca", "texto": "Hacer cucharita con Hitler" },
-  { "id": 149, "tipo": "blanca", "texto": "Tu vieja" },
-  { "id": 150, "tipo": "blanca", "texto": "El tráfico de órganos" },
-  { "id": 151, "tipo": "blanca", "texto": "La infertilidad" },
-  { "id": 152, "tipo": "blanca", "texto": "El espiral para los mosquitos" },
-  { "id": 153, "tipo": "blanca", "texto": "El paco" },
-  { "id": 154, "tipo": "blanca", "texto": "Un niño africano y su AK-47" },
-  { "id": 155, "tipo": "blanca", "texto": "Amar animales más de lo que alguien debería amar un animal" },
-  { "id": 156, "tipo": "blanca", "texto": "Las islas Malvinas" },
-  { "id": 157, "tipo": "blanca", "texto": "El racismo" },
-  { "id": 158, "tipo": "blanca", "texto": "El sadomasoquismo" },
-  { "id": 159, "tipo": "blanca", "texto": "Rosa, la maravillosa" },
-  { "id": 160, "tipo": "blanca", "texto": "La fe cristiana" },
-  { "id": 161, "tipo": "blanca", "texto": "Un payaso" },
-  { "id": 162, "tipo": "blanca", "texto": "El chi chi chi le le le" },
-  { "id": 163, "tipo": "blanca", "texto": "Un ginecólogo pediatra" },
-  { "id": 164, "tipo": "blanca", "texto": "No tener códigos" },
-  { "id": 165, "tipo": "blanca", "texto": "Ese tío raro que tienen todas las familias" },
-  { "id": 166, "tipo": "blanca", "texto": "Las anécdotas de mi viejo" },
-  { "id": 167, "tipo": "blanca", "texto": "Malos modales" },
-  { "id": 168, "tipo": "blanca", "texto": "Una inerte barra de carbón" },
-  { "id": 169, "tipo": "blanca", "texto": "La fiesta de la espuma" },
-  { "id": 170, "tipo": "blanca", "texto": "Un proctólogo" },
-  { "id": 171, "tipo": "blanca", "texto": "La bipolaridad" },
-  { "id": 172, "tipo": "blanca", "texto": "Instalar la monarquía en la Argentina" },
-  { "id": 173, "tipo": "blanca", "texto": "Ponerle pasas de uva a las empanadas" },
-  { "id": 174, "tipo": "blanca", "texto": "Una denuncia de Carrió" },
-  { "id": 175, "tipo": "blanca", "texto": "Creer en el horóscopo" },
-  { "id": 176, "tipo": "blanca", "texto": "La zona roja" },
-  { "id": 177, "tipo": "blanca", "texto": "El vértigo en la cola" },
-  { "id": 178, "tipo": "blanca", "texto": "La adicción al sexo" },
-  { "id": 179, "tipo": "blanca", "texto": "Stalkear a tu ex en redes sociales" },
-  { "id": 180, "tipo": "blanca", "texto": "El acoso sexual en el subte" },
-  { "id": 181, "tipo": "blanca", "texto": "Fosas comunes" },
-  { "id": 182, "tipo": "blanca", "texto": "El gluten" },
-  { "id": 183, "tipo": "blanca", "texto": "Mi hermano" },
-  { "id": 184, "tipo": "blanca", "texto": "La versión braille del Kamasutra" },
-  { "id": 185, "tipo": "blanca", "texto": "Ir a misa" },
-  { "id": 186, "tipo": "blanca", "texto": "Algún pelotudo de la farándula al azar" },
-  { "id": 187, "tipo": "blanca", "texto": "La pena de muerte" },
-  { "id": 188, "tipo": "blanca", "texto": "Sacarla y acabar afuera" },
-  { "id": 189, "tipo": "blanca", "texto": "Un cinturonga" },
-  { "id": 190, "tipo": "blanca", "texto": "Un ataque de palometas" },
-  { "id": 191, "tipo": "blanca", "texto": "Un poster de la concha de tu hermana" },
-  { "id": 192, "tipo": "blanca", "texto": "Los mormones" },
-  { "id": 193, "tipo": "blanca", "texto": "Irse en seco" },
-  { "id": 194, "tipo": "blanca", "texto": "Adolf Hitler" },
-  { "id": 195, "tipo": "blanca", "texto": "Un tuca" },
-  { "id": 196, "tipo": "blanca", "texto": "Un super chino" },
-  { "id": 197, "tipo": "blanca", "texto": "Agacharse y conocerlo" },
-  { "id": 198, "tipo": "blanca", "texto": "Las inundaciones" },
-  { "id": 199, "tipo": "blanca", "texto": "El cuco" },
-  { "id": 200, "tipo": "blanca", "texto": "El segundo cordón del conurbano bonaerense" },
-  { "id": 201, "tipo": "blanca", "texto": "El fundamentalismo vegano" },
-  { "id": 202, "tipo": "blanca", "texto": "Probar con un yogur" },
-  { "id": 203, "tipo": "blanca", "texto": "La cara de Cristiano cuando le dan un premio a Messi" },
-  { "id": 204, "tipo": "blanca", "texto": "La computadorita por la que habla Stephen Hawking" },
-  { "id": 205, "tipo": "blanca", "texto": "Revisarle el celu a tu pareja" },
-  { "id": 206, "tipo": "blanca", "texto": "Mi jefe" },
-  { "id": 207, "tipo": "blanca", "texto": "Un enema" },
-  { "id": 208, "tipo": "blanca", "texto": "Un metrodelegado" },
-  { "id": 209, "tipo": "blanca", "texto": "La Deep Web" },
-  { "id": 210, "tipo": "blanca", "texto": "Jugar al Jenga con un sobreviviente de las Torres Gemelas" },
-  { "id": 211, "tipo": "blanca", "texto": "La esvástica" },
-  { "id": 212, "tipo": "blanca", "texto": "Un frasquito con un feto adentro" },
-  { "id": 213, "tipo": "blanca", "texto": "Una foto mía de hace 5 años" },
-  { "id": 214, "tipo": "blanca", "texto": "Las manos de todos los pibes arriba" },
-  { "id": 215, "tipo": "blanca", "texto": "La raza aria" },
-  { "id": 216, "tipo": "blanca", "texto": "Un harén de cholas peruanas" },
-  { "id": 217, "tipo": "blanca", "texto": "Ponerse la gorra" },
-  { "id": 218, "tipo": "blanca", "texto": "Las manos de Perón" },
-  { "id": 219, "tipo": "blanca", "texto": "Una lluvia de pijas" },
-  { "id": 220, "tipo": "blanca", "texto": "Lo que queda del radicalismo" },
-  { "id": 221, "tipo": "blanca", "texto": "Querer que vuelvan los militares" },
-  { "id": 222, "tipo": "blanca", "texto": "Tomar medio vasito de orina" },
-  { "id": 223, "tipo": "blanca", "texto": "Un video de ISIS decapitando periodistas" },
-  { "id": 224, "tipo": "blanca", "texto": "Un dildo de dos puntas" },
-  { "id": 225, "tipo": "blanca", "texto": "Las hemorroides" },
-  { "id": 226, "tipo": "blanca", "texto": "La Tercera Guerra Mundial" },
-  { "id": 227, "tipo": "blanca", "texto": "Tener las bolas por el piso" },
-  { "id": 228, "tipo": "blanca", "texto": "Vivir rodeado de pelotudos" },
-  { "id": 229, "tipo": "blanca", "texto": "Los skinheads" },
-  { "id": 230, "tipo": "blanca", "texto": "Hacer molinete" },
-  { "id": 231, "tipo": "blanca", "texto": "Coger con extraños" },
-  { "id": 232, "tipo": "blanca", "texto": "Un arquero paraguayo con el ego altísimo" },
-  { "id": 233, "tipo": "blanca", "texto": "Matilda" },
-  { "id": 234, "tipo": "blanca", "texto": "La pincita de la depiladora" },
-  { "id": 235, "tipo": "blanca", "texto": "El Dalai Lama" },
-  { "id": 236, "tipo": "blanca", "texto": "El amor" },
-  { "id": 237, "tipo": "blanca", "texto": "Opinar sin saber" },
-  { "id": 238, "tipo": "blanca", "texto": "El calentamiento global" },
-  { "id": 239, "tipo": "blanca", "texto": "La discriminación" },
-  { "id": 240, "tipo": "blanca", "texto": "La eutanasia" },
-  { "id": 241, "tipo": "blanca", "texto": "La mafia china" },
-  { "id": 242, "tipo": "blanca", "texto": "Herpes bucales" },
-  { "id": 243, "tipo": "blanca", "texto": "Llegar virgen al matrimonio" },
-  { "id": 244, "tipo": "blanca", "texto": "La Difunta Correa" },
-  { "id": 245, "tipo": "blanca", "texto": "Jesús" },
-  { "id": 246, "tipo": "blanca", "texto": "El Día de la Lealtad" },
-  { "id": 247, "tipo": "blanca", "texto": "Salpicar la tapa del inodoro" },
-  { "id": 248, "tipo": "blanca", "texto": "La posibilidad de una guerra nuclear" },
-  { "id": 249, "tipo": "blanca", "texto": "El cavado profundo" },
-  { "id": 250, "tipo": "blanca", "texto": "Un brote de dengue" },
-  { "id": 251, "tipo": "blanca", "texto": "La que hace la traducción para sordomudos" },
-  { "id": 252, "tipo": "blanca", "texto": "Un conchero" },
-  { "id": 253, "tipo": "blanca", "texto": "El Ku Klux Klan" },
-  { "id": 254, "tipo": "blanca", "texto": "La servidumbre" },
-  { "id": 255, "tipo": "blanca", "texto": "Una MILF" },
-  { "id": 256, "tipo": "blanca", "texto": "(Nombrá al jugador de tu derecha)" },
-  { "id": 257, "tipo": "blanca", "texto": "El autor intelectual del crimen de Cabezas" },
-  { "id": 258, "tipo": "blanca", "texto": "Los pelirrojos" },
-  { "id": 259, "tipo": "blanca", "texto": "Rambo" },
-  { "id": 260, "tipo": "blanca", "texto": "Un motochorro" },
-  { "id": 261, "tipo": "blanca", "texto": "El antidoping" },
-  { "id": 262, "tipo": "blanca", "texto": "Darle para que tenga" },
-  { "id": 263, "tipo": "blanca", "texto": "El olor a bebé" },
-  { "id": 264, "tipo": "blanca", "texto": "Un chiste misógino" },
-  { "id": 265, "tipo": "blanca", "texto": "El culto al crossfit" },
-  { "id": 266, "tipo": "blanca", "texto": "Legalizar el aborto" },
-  { "id": 267, "tipo": "blanca", "texto": "Una wacha piola" },
-  { "id": 268, "tipo": "blanca", "texto": "El sueño de ser campeón de Gimnasia" },
-  { "id": 269, "tipo": "blanca", "texto": "Una bañera llena de tibia leche" },
-  { "id": 270, "tipo": "blanca", "texto": "Los porteños" },
-  { "id": 271, "tipo": "blanca", "texto": "Una salidera bancaria" },
-  { "id": 272, "tipo": "blanca", "texto": "El pibe de sistemas" },
-  { "id": 273, "tipo": "blanca", "texto": "El incesto" },
-  { "id": 274, "tipo": "blanca", "texto": "La cárcel de Devoto" },
-  { "id": 275, "tipo": "blanca", "texto": "Un puñal de carne" },
-  { "id": 276, "tipo": "blanca", "texto": "El machismo" },
-  { "id": 277, "tipo": "blanca", "texto": "Negar el Holocausto" },
-  { "id": 278, "tipo": "blanca", "texto": "ISIS" },
-  { "id": 279, "tipo": "blanca", "texto": "El rigor mortis" },
-  { "id": 280, "tipo": "blanca", "texto": "El colesterol alto" },
-  { "id": 281, "tipo": "blanca", "texto": "Los ensayos nucleares de Corea del Norte" },
-  { "id": 282, "tipo": "blanca", "texto": "Lamer axilas" },
-  { "id": 283, "tipo": "blanca", "texto": "Tapar el baño" },
-  { "id": 284, "tipo": "blanca", "texto": "El 70% de descuento en la segunda unidad" },
-  { "id": 285, "tipo": "blanca", "texto": "La pubertad" },
-  { "id": 286, "tipo": "blanca", "texto": "La leche cortada" },
-  { "id": 287, "tipo": "blanca", "texto": "La barba candado" },
-  { "id": 288, "tipo": "blanca", "texto": "Vladimir Putin" },
-  { "id": 289, "tipo": "blanca", "texto": "La AFIP" },
-  { "id": 290, "tipo": "blanca", "texto": "Automedicarse" },
-  { "id": 291, "tipo": "blanca", "texto": "Quedarse pelado" },
-  { "id": 292, "tipo": "blanca", "texto": "Una tirada de goma decepcionante" },
-  { "id": 293, "tipo": "blanca", "texto": "La pulserita roja contra la envidia" },
-  { "id": 294, "tipo": "blanca", "texto": "Un deportista argentino en una Final" },
-  { "id": 295, "tipo": "blanca", "texto": "El Opus Dei" },
-  { "id": 296, "tipo": "blanca", "texto": "Una mujer con los pies muy pequeños y el pene muy grande" },
-  { "id": 297, "tipo": "blanca", "texto": "Un pedo vaginal" },
-  { "id": 298, "tipo": "blanca", "texto": "Jugar al teto" },
-  { "id": 299, "tipo": "blanca", "texto": "La concha de la lora" },
-  { "id": 300, "tipo": "blanca", "texto": "Cerrar el orto" },
-  { "id": 301, "tipo": "blanca", "texto": "Los pañales para adultos" },
-  { "id": 302, "tipo": "blanca", "texto": "Recuerdos reprimidos" },
-  { "id": 303, "tipo": "blanca", "texto": "La copa menstrual" },
-  { "id": 304, "tipo": "blanca", "texto": "La pastilla del día después" },
-  { "id": 305, "tipo": "blanca", "texto": "Un culo come trapo" },
-  { "id": 306, "tipo": "blanca", "texto": "La ira de Dios" },
-  { "id": 307, "tipo": "blanca", "texto": "La carpita mañanera" },
-  { "id": 308, "tipo": "blanca", "texto": "El pueblo judío" },
-  { "id": 309, "tipo": "blanca", "texto": "El papa Francisco" },
-  { "id": 310, "tipo": "blanca", "texto": "Una jauría de lobos salvajes" },
-  { "id": 311, "tipo": "blanca", "texto": "Eructar el abecedario" },
-  { "id": 312, "tipo": "blanca", "texto": "Sergio Massa" },
-  { "id": 313, "tipo": "blanca", "texto": "Mauricio Macri" },
-  { "id": 314, "tipo": "blanca", "texto": "Esa tibia sensación que sentís cuando levantás la caca del perro con una bolsita" },
-  { "id": 315, "tipo": "blanca", "texto": "Brownies con gusto a pasto" },
-  { "id": 316, "tipo": "blanca", "texto": "La Iglesia maradoniana" },
-  { "id": 317, "tipo": "blanca", "texto": "Una silla de ruedas" },
-  { "id": 318, "tipo": "blanca", "texto": "Un test de embarazo positivo" },
-  { "id": 319, "tipo": "blanca", "texto": "La flacidez" },
-  { "id": 320, "tipo": "blanca", "texto": "Un accidente en un parque de diversiones" },
-  { "id": 321, "tipo": "blanca", "texto": "Matar al último panda" },
-  { "id": 322, "tipo": "blanca", "texto": "El porno gay" },
-  { "id": 323, "tipo": "blanca", "texto": "Las bicisendas" },
-  { "id": 324, "tipo": "blanca", "texto": "Mirar nenas en jumper" },
-  { "id": 325, "tipo": "blanca", "texto": "(Nombrá al jugador de tu izquierda)" },
-  { "id": 326, "tipo": "blanca", "texto": "La cumbia villera" },
-  { "id": 327, "tipo": "blanca", "texto": "Coger con cocaína en la punta de la verga" },
-  { "id": 328, "tipo": "blanca", "texto": "Usar sandalias con medias" },
-  { "id": 329, "tipo": "blanca", "texto": "Un cabeza de termo" },
-  { "id": 330, "tipo": "blanca", "texto": "La muerte" },
-  { "id": 331, "tipo": "blanca", "texto": "Parir en el auto" },
-  { "id": 332, "tipo": "blanca", "texto": "Preguntarle si está por acabar" },
-  { "id": 333, "tipo": "blanca", "texto": "Auschwitz" },
-  { "id": 334, "tipo": "blanca", "texto": "Lágrimas de semen" },
-  { "id": 335, "tipo": "blanca", "texto": "Orgasmos múltiples" },
-  { "id": 336, "tipo": "blanca", "texto": "Tu situación laboral" },
-  { "id": 337, "tipo": "blanca", "texto": "Una verga más ancha que larga" },
-  { "id": 338, "tipo": "blanca", "texto": "La tira de cola" },
-  { "id": 339, "tipo": "blanca", "texto": "El negro pijudo del WhatsApp" },
-  { "id": 340, "tipo": "blanca", "texto": "El carnaval carioca" },
-  { "id": 341, "tipo": "blanca", "texto": "El trabajo esclavo" },
-  { "id": 342, "tipo": "blanca", "texto": "El FMI" },
-  { "id": 343, "tipo": "blanca", "texto": "La plata de los jubilados" },
-  { "id": 344, "tipo": "blanca", "texto": "Pindonga y Cuchuflito" },
-  { "id": 345, "tipo": "blanca", "texto": "La macrisis" },
-  { "id": 346, "tipo": "blanca", "texto": "La revolución de la alegría" },
-  { "id": 347, "tipo": "blanca", "texto": "Los gordos de la CGT" },
-  { "id": 348, "tipo": "blanca", "texto": "Un excombatiente" },
-  { "id": 349, "tipo": "blanca", "texto": "La democracia venezolana" },
-  { "id": 350, "tipo": "blanca", "texto": "Los planes trabajar" },
-  { "id": 351, "tipo": "blanca", "texto": "Hebe" },
-  { "id": 352, "tipo": "blanca", "texto": "Pagar la deuda" },
-  { "id": 353, "tipo": "blanca", "texto": "Robar, robarse todo, absolutamente todo" },
-  { "id": 354, "tipo": "blanca", "texto": "La guerra civil del 2025" },
-  { "id": 355, "tipo": "blanca", "texto": "El día después de las PASO" },
-  { "id": 356, "tipo": "blanca", "texto": "Desaparecer gente" },
-  { "id": 357, "tipo": "blanca", "texto": "Evita" },
-  { "id": 358, "tipo": "blanca", "texto": "Venderse al mejor postor" },
-  { "id": 359, "tipo": "blanca", "texto": "Aumentar la edad de la jubilación" },
-  { "id": 360, "tipo": "blanca", "texto": "Fiesta en el bunker de Macri" },
-  { "id": 361, "tipo": "blanca", "texto": "Las vacaciones de Macri" },
-  { "id": 362, "tipo": "blanca", "texto": "Espiar a la población" },
-  { "id": 363, "tipo": "blanca", "texto": "CFK" },
-  { "id": 364, "tipo": "blanca", "texto": "Las remeras del Che" },
-  { "id": 365, "tipo": "blanca", "texto": "Enterrar bolsos en un convento" },
-  { "id": 366, "tipo": "blanca", "texto": "La hiperinflación" },
-  { "id": 367, "tipo": "blanca", "texto": "Un golpe de Estado" },
-  { "id": 368, "tipo": "blanca", "texto": "Un peroncho" },
-  { "id": 369, "tipo": "blanca", "texto": "Juan Domingo Perón" },
-  { "id": 370, "tipo": "blanca", "texto": "Los zurditos" },
-  { "id": 371, "tipo": "blanca", "texto": "La educación pública" },
-  { "id": 372, "tipo": "blanca", "texto": "María Eugenia Vidal" },
-  { "id": 373, "tipo": "blanca", "texto": "Ser comunista" },
-  { "id": 374, "tipo": "blanca", "texto": "Odiar la democracia" },
-  { "id": 375, "tipo": "blanca", "texto": "La corte suprema" },
-  { "id": 376, "tipo": "blanca", "texto": "La anarquía" },
-  { "id": 377, "tipo": "blanca", "texto": "La amistad entre la federal y la metropolitana" },
-  { "id": 378, "tipo": "blanca", "texto": "Carlos Saúl" },
-  { "id": 379, "tipo": "blanca", "texto": "Un Falcon verde transformer" },
-  { "id": 380, "tipo": "blanca", "texto": "La clase media" },
-  { "id": 381, "tipo": "blanca", "texto": "Invadir las Malvinas" },
-  { "id": 382, "tipo": "blanca", "texto": "Tener sexo oral con un perrito" },
-  { "id": 383, "tipo": "blanca", "texto": "La sequedad vaginal" },
-  { "id": 384, "tipo": "blanca", "texto": "La anorgasmia femenina" },
-  { "id": 385, "tipo": "blanca", "texto": "Un plug anal con strass de 10cm de largo" },
-  { "id": 386, "tipo": "blanca", "texto": "Un pedo vaginal" },
-  { "id": 387, "tipo": "blanca", "texto": "Un anillo penenano" },
-  { "id": 388, "tipo": "blanca", "texto": "Muchos meses sin coger" },
-  { "id": 389, "tipo": "blanca", "texto": "Chupar un culo" },
-  { "id": 390, "tipo": "blanca", "texto": "El sudor en medio de las tetas" },
-  { "id": 391, "tipo": "blanca", "texto": "Coger drogado" },
-  { "id": 392, "tipo": "blanca", "texto": "La eyaculación precoz" },
-  { "id": 393, "tipo": "blanca", "texto": "Coger pensando en ex" },
-  { "id": 394, "tipo": "blanca", "texto": "El twerking" },
-  { "id": 395, "tipo": "blanca", "texto": "Una booty call" },
-  { "id": 396, "tipo": "blanca", "texto": "Un orgasmo de 10 minutos" },
-  { "id": 397, "tipo": "blanca", "texto": "La mema" },
-  { "id": 398, "tipo": "blanca", "texto": "Las pinzas para pezones" },
-  { "id": 399, "tipo": "blanca", "texto": "Meterla sin confianza" },
-  { "id": 400, "tipo": "blanca", "texto": "Un luthier de dildos" },
-  { "id": 401, "tipo": "blanca", "texto": "El ciempiés humano" },
-  { "id": 402, "tipo": "blanca", "texto": "Tocarme con la otra mano" },
-  { "id": 403, "tipo": "blanca", "texto": "Una vulva en llamas" },
-  { "id": 404, "tipo": "blanca", "texto": "Poner la vagina en un pedestal" },
-  { "id": 405, "tipo": "blanca", "texto": "Calentarme con menores de edad" },
-  { "id": 406, "tipo": "blanca", "texto": "Una pija tan grande que tenga un codo" },
-  { "id": 407, "tipo": "blanca", "texto": "Una primera vez sin forro" },
-  { "id": 408, "tipo": "blanca", "texto": "Sasha Grey" },
-  { "id": 409, "tipo": "blanca", "texto": "Coger con embarazadas" },
-  { "id": 410, "tipo": "blanca", "texto": "Semen fluorescente" },
-  { "id": 411, "tipo": "blanca", "texto": "Una esfera vaginal" },
-  { "id": 412, "tipo": "blanca", "texto": "El vaginismo" },
-  { "id": 413, "tipo": "blanca", "texto": "Poner un forro con la boca" },
-  { "id": 414, "tipo": "blanca", "texto": "Relajarse y gozar" },
-  { "id": 415, "tipo": "blanca", "texto": "Morir en un telo" },
-  { "id": 416, "tipo": "blanca", "texto": "Un dedito en el culo" },
-  { "id": 417, "tipo": "blanca", "texto": "El fin de la monogamia" },
-  { "id": 418, "tipo": "blanca", "texto": "Un toro mecánico con forma de pene" },
-  { "id": 419, "tipo": "blanca", "texto": "La diferencia entre coger y violar" },
-  { "id": 420, "tipo": "blanca", "texto": "Un trío con un familiar" },
-  { "id": 421, "tipo": "blanca", "texto": "Un velorio a cajon cerrado" },
-  { "id": 422, "tipo": "blanca", "texto": "Dar un like sin querer" },
-  { "id": 423, "tipo": "blanca", "texto": "La violencia doméstica" },
-  { "id": 424, "tipo": "blanca", "texto": "El gas pimienta" },
-  { "id": 425, "tipo": "blanca", "texto": "Un puterío" },
-  { "id": 426, "tipo": "blanca", "texto": "Los patovicas" },
-  { "id": 427, "tipo": "blanca", "texto": "Un sordomudo" },
-  { "id": 428, "tipo": "blanca", "texto": "Circuncidarse de grande" },
-  { "id": 429, "tipo": "blanca", "texto": "Media docena de huevos" },
-  { "id": 430, "tipo": "blanca", "texto": "El zombie de Freddie Mercury" },
-  { "id": 431, "tipo": "blanca", "texto": "Subir la vara" },
-  { "id": 432, "tipo": "blanca", "texto": "El celibato" },
-  { "id": 433, "tipo": "blanca", "texto": "El olor a chivo" },
-  { "id": 434, "tipo": "blanca", "texto": "Un bombardeo con drones" },
-  { "id": 435, "tipo": "blanca", "texto": "Ser pecho frío" },
-  { "id": 436, "tipo": "blanca", "texto": "Un caso de gatillo fácil" },
-  { "id": 437, "tipo": "blanca", "texto": "La capacidad de amar de un abogado" },
-  { "id": 438, "tipo": "blanca", "texto": "Un nene llorando" },
-  { "id": 439, "tipo": "blanca", "texto": "Un juicio por alimentos" },
-  { "id": 440, "tipo": "blanca", "texto": "Un cordinador de viaje de egresados" },
-  { "id": 441, "tipo": "blanca", "texto": "Los manteros" },
-  { "id": 442, "tipo": "blanca", "texto": "Despertar en el bondi cubierto de baba" },
-  { "id": 443, "tipo": "blanca", "texto": "Enterrar evidencias" },
-  { "id": 444, "tipo": "blanca", "texto": "El servicio secreto uruguayo" },
-  { "id": 445, "tipo": "blanca", "texto": "La comunidad mapuche" },
-  { "id": 446, "tipo": "blanca", "texto": "El cuartito donde los asesinos seriales guardan las fotos de sus víctimas" },
-  { "id": 447, "tipo": "blanca", "texto": "Vender poesía en el colectivo" },
-  { "id": 448, "tipo": "blanca", "texto": "Un cinturón de cuero" },
-  { "id": 449, "tipo": "blanca", "texto": "Sacarse el anillo de casamiento" },
-  { "id": 450, "tipo": "blanca", "texto": "Manosear el joystick" },
-  { "id": 451, "tipo": "blanca", "texto": "La comida para perros" },
-  { "id": 452, "tipo": "blanca", "texto": "La dentadura de la abuela" },
-  { "id": 453, "tipo": "blanca", "texto": "Un ataque de pánico" },
-  { "id": 454, "tipo": "blanca", "texto": "La dura y triste realidad" },
-  { "id": 455, "tipo": "blanca", "texto": "El Espíritu Santo" },
-  { "id": 456, "tipo": "blanca", "texto": "El faso" },
-  { "id": 457, "tipo": "blanca", "texto": "El juguito que gotea de una bolsa de basura" },
-  { "id": 458, "tipo": "blanca", "texto": "Amigos con derechos" },
-  { "id": 459, "tipo": "blanca", "texto": "Una incubadora" },
-  { "id": 460, "tipo": "blanca", "texto": "Una oveja en baby doll" },
-  { "id": 461, "tipo": "blanca", "texto": "Vender humo" },
-  { "id": 462, "tipo": "blanca", "texto": "Mandar a otro al antidoping" },
-  { "id": 463, "tipo": "blanca", "texto": "Perder con Alemania" },
-  { "id": 464, "tipo": "blanca", "texto": "Un exabrupto de Pagani" },
-  { "id": 465, "tipo": "blanca", "texto": "Subir al avión con el plantel de Chapecoense" },
-  { "id": 466, "tipo": "blanca", "texto": "Un delantero del ascenso" },
-  { "id": 467, "tipo": "blanca", "texto": "Poner un poco más de huevo" },
-  { "id": 468, "tipo": "blanca", "texto": "Picarla en el último penal" },
-  { "id": 469, "tipo": "blanca", "texto": "Un parlante en la tribuna" },
-  { "id": 470, "tipo": "blanca", "texto": "Incendiar tu propio estadio" },
-  { "id": 471, "tipo": "blanca", "texto": "Apretar jugadores" },
-  { "id": 472, "tipo": "blanca", "texto": "Prostituir a los pibes de las inferiores" },
-  { "id": 473, "tipo": "blanca", "texto": "Pagarle a la barra" },
-  { "id": 474, "tipo": "blanca", "texto": "El gordo de \"Andá a la cancha bobo\"" },
-  { "id": 475, "tipo": "blanca", "texto": "Encontrale barrio a San Lorenzo" },
-  { "id": 476, "tipo": "blanca", "texto": "La muerte de un hincha" },
-  { "id": 477, "tipo": "blanca", "texto": "Ir a robar a China" },
-  { "id": 478, "tipo": "blanca", "texto": "Gritar \"¡¡Estamos en la B!!\"" },
-  { "id": 479, "tipo": "blanca", "texto": "Eliminar a Brasil de un Mundial" },
-  { "id": 480, "tipo": "blanca", "texto": "El 3 de Midland" },
-  { "id": 481, "tipo": "blanca", "texto": "Banfield y esos equipos así" },
-  { "id": 482, "tipo": "blanca", "texto": "Entrar a la cancha con la barra" },
-  { "id": 483, "tipo": "blanca", "texto": "Salir jugando de abajo" },
-  { "id": 484, "tipo": "blanca", "texto": "Vélesh" },
-  { "id": 485, "tipo": "blanca", "texto": "Pasar 40 años sin salir campeón" },
-  { "id": 486, "tipo": "blanca", "texto": "Una botinera" },
-  { "id": 487, "tipo": "blanca", "texto": "Perder la final de la Libertadores" },
-  { "id": 488, "tipo": "blanca", "texto": "Arsenal campeón" },
-  { "id": 489, "tipo": "blanca", "texto": "El mechón amarillo del Diego en el '95" },
-  { "id": 490, "tipo": "blanca", "texto": "Los amarrrrrgos" },
-  { "id": 491, "tipo": "blanca", "texto": "Desgarrarse el ano por la camiseta" },
-  { "id": 492, "tipo": "blanca", "texto": "Reventar un micro a piedrazos" },
-  { "id": 493, "tipo": "blanca", "texto": "Darle el Mundial a un país de mierda" },
-  { "id": 494, "tipo": "blanca", "texto": "El choripán de cancha" },
-  { "id": 495, "tipo": "blanca", "texto": "El gordo ventilador" },
-  { "id": 496, "tipo": "blanca", "texto": "Mandar al arquero a cabecear" },
-  { "id": 497, "tipo": "blanca", "texto": "Las peleas en el vestuario de Boca" },
-  { "id": 498, "tipo": "blanca", "texto": "Eeeeeeeeeeeeee" },
-  { "id": 499, "tipo": "blanca", "texto": "Un meme de Higuaín" },
-  { "id": 500, "tipo": "blanca", "texto": "Velar a un barra en la cancha" },
-  { "id": 501, "tipo": "blanca", "texto": "Amar a Dios por sobre todas las cosas" },
-  { "id": 502, "tipo": "blanca", "texto": "Matar en nombre de Dios" },
-  { "id": 503, "tipo": "blanca", "texto": "Tirar el I Ching" },
-  { "id": 504, "tipo": "blanca", "texto": "Los pastafaris" },
-  { "id": 505, "tipo": "blanca", "texto": "Ir caminando a Luján" },
-  { "id": 506, "tipo": "blanca", "texto": "Moisés" },
-  { "id": 507, "tipo": "blanca", "texto": "Llevarle el CV a San Cayetano" },
-  { "id": 508, "tipo": "blanca", "texto": "Un pene circuncidado" },
-  { "id": 509, "tipo": "blanca", "texto": "Pasar por debajo de una escalera" },
-  { "id": 510, "tipo": "blanca", "texto": "Un consolador con forma de crucifijo" },
-  { "id": 511, "tipo": "blanca", "texto": "Convertir un cine en una iglesia" },
-  { "id": 512, "tipo": "blanca", "texto": "Ese amigo que todos tenemos que dice que es budista" },
-  { "id": 513, "tipo": "blanca", "texto": "El tipo de \"Pare de sufrir\"" },
-  { "id": 514, "tipo": "blanca", "texto": "El ascendente en Tauro" },
-  { "id": 515, "tipo": "blanca", "texto": "Rezar 5 veces al día por obligación" },
-  { "id": 516, "tipo": "blanca", "texto": "Ir de levante a la iglesia" },
-  { "id": 517, "tipo": "blanca", "texto": "El juego de la copa" },
-  { "id": 518, "tipo": "blanca", "texto": "Un judío ortodoxo" },
-  { "id": 519, "tipo": "blanca", "texto": "Desear a la pareja de mi projimo" },
-  { "id": 520, "tipo": "blanca", "texto": "Un video de Bar Mitzvah" },
-  { "id": 521, "tipo": "blanca", "texto": "El amor de Jesucristo" },
-  { "id": 522, "tipo": "blanca", "texto": "Un solemne y digno Ramadán" },
-  { "id": 523, "tipo": "blanca", "texto": "Adán y Eva" },
-  { "id": 524, "tipo": "blanca", "texto": "La Yihad" },
-  { "id": 525, "tipo": "blanca", "texto": "Tirar la primera piedra" },
-  { "id": 526, "tipo": "blanca", "texto": "La Iglesia Adventista del Séptimo Día" },
-  { "id": 527, "tipo": "blanca", "texto": "Una aparición de la virgen" },
-  { "id": 528, "tipo": "blanca", "texto": "Mefistófeles" },
-  { "id": 529, "tipo": "blanca", "texto": "Gritar \"Alá es grande\"" },
-  { "id": 530, "tipo": "blanca", "texto": "El santo Grial" },
-  { "id": 531, "tipo": "blanca", "texto": "Los Jedis" },
-  { "id": 532, "tipo": "blanca", "texto": "Tocarse el huevo izquierdo cuando ves a un pelirrojo" },
-  { "id": 533, "tipo": "blanca", "texto": "Una macumba" },
-  { "id": 534, "tipo": "blanca", "texto": "Invadir Jerusalén" },
-  { "id": 535, "tipo": "blanca", "texto": "El olor a monja" },
-  { "id": 536, "tipo": "blanca", "texto": "Quemar científicos en la hoguera" },
-  { "id": 537, "tipo": "blanca", "texto": "Los terraplanistas" },
-  { "id": 538, "tipo": "blanca", "texto": "Decirle a un cura que Jesús era gay" },
-  { "id": 539, "tipo": "blanca", "texto": "Querer que vuelva la Inquisición" },
-  { "id": 540, "tipo": "blanca", "texto": "El reiki" },
-  { "id": 541, "tipo": "blanca", "texto": "Un apretón de manos húmedo" },
-  { "id": 542, "tipo": "blanca", "texto": "Bajonear bondiola a las 6 de la mañana" },
-  { "id": 543, "tipo": "blanca", "texto": "Un grupo de nudistas" },
-  { "id": 544, "tipo": "blanca", "texto": "El maltrato infantil" },
-  { "id": 545, "tipo": "blanca", "texto": "El genocidio armenio" },
-  { "id": 546, "tipo": "blanca", "texto": "Un telemarketer" },
-  { "id": 547, "tipo": "blanca", "texto": "La pizza con ananá" },
-  { "id": 548, "tipo": "blanca", "texto": "Los pobres" },
-  { "id": 549, "tipo": "blanca", "texto": "Una vasectomía" },
-  { "id": 550, "tipo": "blanca", "texto": "El Diegote" },
-  { "id": 551, "tipo": "blanca", "texto": "Quejarse al pedo" },
-  { "id": 552, "tipo": "blanca", "texto": "La codicia" },
-  { "id": 553, "tipo": "blanca", "texto": "Invadir Polonia" },
-  { "id": 554, "tipo": "blanca", "texto": "La brutalidad policial" },
-  { "id": 555, "tipo": "blanca", "texto": "Pedirle la SUBE a un desconocido" },
-  { "id": 556, "tipo": "blanca", "texto": "Un niño prodigio" },
-  { "id": 557, "tipo": "blanca", "texto": "El sentimiento de culpa" },
-  { "id": 558, "tipo": "blanca", "texto": "El día a día de un oncólogo" },
-  { "id": 559, "tipo": "blanca", "texto": "Un futuro donde Chile sea potencia nuclear" },
-  { "id": 560, "tipo": "blanca", "texto": "El Secretario General de la ONU" },
-  { "id": 561, "tipo": "blanca", "texto": "Un senegalés vendiendo cadenitas" },
-  { "id": 562, "tipo": "blanca", "texto": "Abandonar la escena del accidente" },
-  { "id": 563, "tipo": "blanca", "texto": "Una aerolínea de Malasia" },
-  { "id": 564, "tipo": "blanca", "texto": "Roncar como un hijo de puta" },
-  { "id": 565, "tipo": "blanca", "texto": "Restos humanos" },
-  { "id": 566, "tipo": "blanca", "texto": "Los empleados públicos" },
-  { "id": 567, "tipo": "blanca", "texto": "Pedirle un taxi" },
-  { "id": 568, "tipo": "blanca", "texto": "Un sommelier de dildos" },
-  { "id": 569, "tipo": "blanca", "texto": "Salir con alguien que estuvo preso" },
-  { "id": 570, "tipo": "blanca", "texto": "Un gran Danés" },
-  { "id": 571, "tipo": "blanca", "texto": "La falta de imaginación" },
-  { "id": 572, "tipo": "blanca", "texto": "Tener arena en los genitales" },
-  { "id": 573, "tipo": "blanca", "texto": "Las cenizas del abuelo" },
-  { "id": 574, "tipo": "blanca", "texto": "El fuego a discreción" },
-  { "id": 575, "tipo": "blanca", "texto": "Una fiesta fuera de control" },
-  { "id": 576, "tipo": "blanca", "texto": "Una montaña de merca" },
-  { "id": 577, "tipo": "blanca", "texto": "La friendzone" },
-  { "id": 578, "tipo": "blanca", "texto": "Moco, mucho moco" },
-  { "id": 579, "tipo": "blanca", "texto": "Una riñonera" },
-  { "id": 580, "tipo": "blanca", "texto": "Un enano llamado Marcelo" },
-  { "id": 581, "tipo": "blanca", "texto": "Tapar rampas para discapacitados" },
-  { "id": 582, "tipo": "blanca", "texto": "Un irrefrenable deseo de autoflagelarse" },
-  { "id": 583, "tipo": "blanca", "texto": "Una pasti" },
-  { "id": 584, "tipo": "blanca", "texto": "Una vagina con dientes" },
-  { "id": 585, "tipo": "blanca", "texto": "Tener una amigo yihadista" },
-  { "id": 586, "tipo": "blanca", "texto": "Un nieto recuperado" },
-  { "id": 587, "tipo": "blanca", "texto": "La igualdad de género" },
-  { "id": 588, "tipo": "blanca", "texto": "No pagar los sueldos" },
-  { "id": 589, "tipo": "blanca", "texto": "Usar la misma ropa interior durante 10 días" },
-  { "id": 590, "tipo": "blanca", "texto": "Pegarle a personas en situación de calle" },
-  { "id": 591, "tipo": "blanca", "texto": "Un taller clandestino" },
-  { "id": 592, "tipo": "blanca", "texto": "Comprar en La Salada" },
-  { "id": 593, "tipo": "blanca", "texto": "Atender boludos" },
-  { "id": 594, "tipo": "blanca", "texto": "Las visitas conyugales" },
-  { "id": 595, "tipo": "blanca", "texto": "Los cacos" },
-  { "id": 596, "tipo": "blanca", "texto": "Un anillo para penes" },
-  { "id": 597, "tipo": "blanca", "texto": "Perder todo en el casino" },
-  { "id": 598, "tipo": "blanca", "texto": "El arresto domiciliario" },
-  { "id": 599, "tipo": "blanca", "texto": "Reprimir con balas de goma" },
-  { "id": 600, "tipo": "blanca", "texto": "Que se vaya todo a la mierda" },
-  { "id": 601, "tipo": "blanca", "texto": "Un poquito de racismo, no mucho" },
-  { "id": 602, "tipo": "blanca", "texto": "Borrar el historial" },
-  { "id": 603, "tipo": "blanca", "texto": "El olor a culo" },
-  { "id": 604, "tipo": "blanca", "texto": "Una cabeza descomunal" },
-  { "id": 605, "tipo": "blanca", "texto": "Un jabón lleno de pelos" },
-  { "id": 606, "tipo": "blanca", "texto": "Amamantar en el bondi" },
-  { "id": 607, "tipo": "blanca", "texto": "Figurar en el Registro Nacional de Delincuentes Sexuales" },
-  { "id": 608, "tipo": "blanca", "texto": "El orificio anal de (nombrá al jugador de tu izquierda con nombre y apellido)" },
-  { "id": 609, "tipo": "blanca", "texto": "Peinarla para adentro" },
-  { "id": 610, "tipo": "blanca", "texto": "Punguear turistas" },
-  { "id": 611, "tipo": "blanca", "texto": "Lo que (nombrá al jugador de tu izquierda) hace por las noches" },
-  { "id": 612, "tipo": "blanca", "texto": "Dos patys gigantes" },
-  { "id": 613, "tipo": "blanca", "texto": "Un sueldo digno para los docentes" },
-  { "id": 614, "tipo": "blanca", "texto": "Un esguince de próstata" },
-  { "id": 615, "tipo": "blanca", "texto": "La gente que cree que su pareja es el amor de su vida" },
-  { "id": 616, "tipo": "blanca", "texto": "Alcohólicos Anónimos" },
-  { "id": 617, "tipo": "blanca", "texto": "Despacito" },
-  { "id": 618, "tipo": "blanca", "texto": "Tener dos penes" },
-  { "id": 619, "tipo": "blanca", "texto": "La bulimia" },
-  { "id": 620, "tipo": "blanca", "texto": "Un brote psicótico con delirio místico" },
-  { "id": 621, "tipo": "blanca", "texto": "Hacer tai chi en bolas" },
-  { "id": 622, "tipo": "blanca", "texto": "La primera vez de (nombrá al jugador de tu izquierda)" },
-  { "id": 623, "tipo": "blanca", "texto": "Un calzón cagado" },
-  { "id": 624, "tipo": "blanca", "texto": "La gente de mierda" },
-  { "id": 625, "tipo": "blanca", "texto": "Esos oscuros momentos de la niñez que nadie quiere recordar" },
-  { "id": 626, "tipo": "blanca", "texto": "Una testiculoscopía" },
-  { "id": 627, "tipo": "blanca", "texto": "Coger con una monja" },
-  { "id": 628, "tipo": "blanca", "texto": "Saquear supermercados antes de las fiestas" },
-  { "id": 629, "tipo": "blanca", "texto": "Una enfermedad hereditaria" },
-  { "id": 630, "tipo": "blanca", "texto": "La línea C del subte" },
-  { "id": 631, "tipo": "blanca", "texto": "Más pelo del que una persona normal debería tener" },
-  { "id": 632, "tipo": "blanca", "texto": "El perreo intenso" },
-  { "id": 633, "tipo": "blanca", "texto": "El squirting" },
-  { "id": 634, "tipo": "blanca", "texto": "El sueño de tener un trabajo en blanco" },
-  { "id": 635, "tipo": "blanca", "texto": "Mensajear a un ex estando borracho" },
-  { "id": 636, "tipo": "blanca", "texto": "Deportar refugiados" },
-  { "id": 637, "tipo": "blanca", "texto": "Los 21 mil desaparecidos de diferencia" },
-  { "id": 638, "tipo": "blanca", "texto": "Un tetazo" },
-  { "id": 639, "tipo": "blanca", "texto": "Bombardear Plaza de Mayo" },
-  { "id": 640, "tipo": "blanca", "texto": "Juzgar a la gente por su color de piel" },
-  { "id": 641, "tipo": "blanca", "texto": "(Nombrá al jugador de tu derecha) gimiendo descontroladamente" },
-  { "id": 642, "tipo": "blanca", "texto": "La estimulación anal" },
-  { "id": 643, "tipo": "blanca", "texto": "Coimear canas" },
-  { "id": 644, "tipo": "blanca", "texto": "Echar discapacitados" },
-  { "id": 645, "tipo": "blanca", "texto": "Darle plata a un trapito" },
-  { "id": 646, "tipo": "blanca", "texto": "Ser inimputable" },
-  { "id": 647, "tipo": "blanca", "texto": "Los crímenes de lesa humanidad" },
-  { "id": 648, "tipo": "blanca", "texto": "Ir de putas" },
-  { "id": 649, "tipo": "blanca", "texto": "El colectivo LGBT" },
-  { "id": 650, "tipo": "blanca", "texto": "La baja autoestima" },
-  { "id": 651, "tipo": "blanca", "texto": "Sentir placer cagando a otros" },
-  { "id": 652, "tipo": "blanca", "texto": "Desayunar con vodka" },
-  { "id": 653, "tipo": "blanca", "texto": "Nacer con el corazón ortiba" },
-  { "id": 654, "tipo": "blanca", "texto": "Una patada en los huevos" },
-  { "id": 655, "tipo": "blanca", "texto": "La Asignación Universal por Hijo" },
-  { "id": 656, "tipo": "blanca", "texto": "La víctima argentina en un atentado" },
-  { "id": 657, "tipo": "blanca", "texto": "El sexting" },
-  { "id": 658, "tipo": "blanca", "texto": "Desalojar manteros" },
-  { "id": 659, "tipo": "blanca", "texto": "Hacer de Videla en una obra del colegio" },
+  {
+    "id": 1,
+    "tipo": "blanca",
+    "texto": "Un volquete lleno de cadáveres"
+  },
+  {
+    "id": 2,
+    "tipo": "blanca",
+    "texto": "Un bebé de caca"
+  },
+  {
+    "id": 3,
+    "tipo": "blanca",
+    "texto": "El olor a billete viejo"
+  },
+  {
+    "id": 4,
+    "tipo": "blanca",
+    "texto": "El padre Grassi"
+  },
+  {
+    "id": 5,
+    "tipo": "blanca",
+    "texto": "Una paja bolsillera"
+  },
+  {
+    "id": 6,
+    "tipo": "blanca",
+    "texto": "La cura contra el cáncer"
+  },
+  {
+    "id": 7,
+    "tipo": "blanca",
+    "texto": "El pibe con el que debutó Pele"
+  },
+  {
+    "id": 8,
+    "tipo": "blanca",
+    "texto": "Una milanesa de soja"
+  },
+  {
+    "id": 9,
+    "tipo": "blanca",
+    "texto": "Un disparo en la cabeza"
+  },
+  {
+    "id": 10,
+    "tipo": "blanca",
+    "texto": "La selección rusa de volley"
+  },
+  {
+    "id": 11,
+    "tipo": "blanca",
+    "texto": "Responder un \"te amo\" con un \"gracias\""
+  },
+  {
+    "id": 12,
+    "tipo": "blanca",
+    "texto": "Un Falcon verde"
+  },
+  {
+    "id": 13,
+    "tipo": "blanca",
+    "texto": "El Viagra"
+  },
+  {
+    "id": 14,
+    "tipo": "blanca",
+    "texto": "El poliamor"
+  },
+  {
+    "id": 15,
+    "tipo": "blanca",
+    "texto": "Un mes sin masacres en Estados Unidos"
+  },
+  {
+    "id": 16,
+    "tipo": "blanca",
+    "texto": "El ex presidente Pinedo"
+  },
+  {
+    "id": 17,
+    "tipo": "blanca",
+    "texto": "Un antojo de carne humana"
+  },
+  {
+    "id": 18,
+    "tipo": "blanca",
+    "texto": "Ir a pilates"
+  },
+  {
+    "id": 19,
+    "tipo": "blanca",
+    "texto": "Un ano contra natura"
+  },
+  {
+    "id": 20,
+    "tipo": "blanca",
+    "texto": "Un cinturón de castidad"
+  },
+  {
+    "id": 21,
+    "tipo": "blanca",
+    "texto": "Una guerra de almohadas"
+  },
+  {
+    "id": 22,
+    "tipo": "blanca",
+    "texto": "Los millennials"
+  },
+  {
+    "id": 23,
+    "tipo": "blanca",
+    "texto": "El fantasma de la B"
+  },
+  {
+    "id": 24,
+    "tipo": "blanca",
+    "texto": "Ser mufa"
+  },
+  {
+    "id": 25,
+    "tipo": "blanca",
+    "texto": "Chuck Norris"
+  },
+  {
+    "id": 26,
+    "tipo": "blanca",
+    "texto": "La verdad, toda la verdad y nada más que la verdad"
+  },
+  {
+    "id": 27,
+    "tipo": "blanca",
+    "texto": "Un detector de sarcasmo"
+  },
+  {
+    "id": 28,
+    "tipo": "blanca",
+    "texto": "Compartir jeringas"
+  },
+  {
+    "id": 29,
+    "tipo": "blanca",
+    "texto": "El aro del corpiño"
+  },
+  {
+    "id": 30,
+    "tipo": "blanca",
+    "texto": "El tránsito lento"
+  },
+  {
+    "id": 31,
+    "tipo": "blanca",
+    "texto": "Mi entrepierna"
+  },
+  {
+    "id": 32,
+    "tipo": "blanca",
+    "texto": "Dos niñas de 7 años"
+  },
+  {
+    "id": 33,
+    "tipo": "blanca",
+    "texto": "Un secuestro express"
+  },
+  {
+    "id": 34,
+    "tipo": "blanca",
+    "texto": "Andar a caballo en pelotas"
+  },
+  {
+    "id": 35,
+    "tipo": "blanca",
+    "texto": "¡Essssta!"
+  },
+  {
+    "id": 36,
+    "tipo": "blanca",
+    "texto": "Un hippie con OSDE"
+  },
+  {
+    "id": 37,
+    "tipo": "blanca",
+    "texto": "Un alto guiso"
+  },
+  {
+    "id": 38,
+    "tipo": "blanca",
+    "texto": "La flora intestinal"
+  },
+  {
+    "id": 39,
+    "tipo": "blanca",
+    "texto": "Enterarme de que mi vieja es insaciable"
+  },
+  {
+    "id": 40,
+    "tipo": "blanca",
+    "texto": "Un disfraz de empanada"
+  },
+  {
+    "id": 41,
+    "tipo": "blanca",
+    "texto": "Los piojos"
+  },
+  {
+    "id": 42,
+    "tipo": "blanca",
+    "texto": "Poner la otra mejilla"
+  },
+  {
+    "id": 43,
+    "tipo": "blanca",
+    "texto": "Salir de joda los martes"
+  },
+  {
+    "id": 44,
+    "tipo": "blanca",
+    "texto": "Un uruguayo llamado Washington"
+  },
+  {
+    "id": 45,
+    "tipo": "blanca",
+    "texto": "Enterarme de que su ex la tenía mucho más grande"
+  },
+  {
+    "id": 46,
+    "tipo": "blanca",
+    "texto": "Laburar los findes"
+  },
+  {
+    "id": 47,
+    "tipo": "blanca",
+    "texto": "Donald Trump"
+  },
+  {
+    "id": 48,
+    "tipo": "blanca",
+    "texto": "Un enorme y gigantesco clítoris"
+  },
+  {
+    "id": 49,
+    "tipo": "blanca",
+    "texto": "Guantánamo"
+  },
+  {
+    "id": 50,
+    "tipo": "blanca",
+    "texto": "Eyacular en gravedad cero"
+  },
+  {
+    "id": 51,
+    "tipo": "blanca",
+    "texto": "Esperar a que cumpla 18"
+  },
+  {
+    "id": 52,
+    "tipo": "blanca",
+    "texto": "Chupar de abajo para arriba"
+  },
+  {
+    "id": 53,
+    "tipo": "blanca",
+    "texto": "Separar siameses"
+  },
+  {
+    "id": 54,
+    "tipo": "blanca",
+    "texto": "La Cámara de Diputados"
+  },
+  {
+    "id": 55,
+    "tipo": "blanca",
+    "texto": "Apoyar el traste en la estufa"
+  },
+  {
+    "id": 56,
+    "tipo": "blanca",
+    "texto": "Un pingüino empetrolado"
+  },
+  {
+    "id": 57,
+    "tipo": "blanca",
+    "texto": "Rabas hechas con prepucios"
+  },
+  {
+    "id": 58,
+    "tipo": "blanca",
+    "texto": "Ejercer el derecho de prima nocte con todos mis amigos"
+  },
+  {
+    "id": 59,
+    "tipo": "blanca",
+    "texto": "Anonymous"
+  },
+  {
+    "id": 60,
+    "tipo": "blanca",
+    "texto": "36 vírgenes por un trabajo hecho a medias"
+  },
+  {
+    "id": 61,
+    "tipo": "blanca",
+    "texto": "La Marcha Peronista"
+  },
+  {
+    "id": 62,
+    "tipo": "blanca",
+    "texto": "El Dirty Sanchez"
+  },
+  {
+    "id": 63,
+    "tipo": "blanca",
+    "texto": "Pezones bizcos"
+  },
+  {
+    "id": 64,
+    "tipo": "blanca",
+    "texto": "Dar el vuelto con caramelos"
+  },
+  {
+    "id": 65,
+    "tipo": "blanca",
+    "texto": "Entrarle como gallego a la gaita"
+  },
+  {
+    "id": 66,
+    "tipo": "blanca",
+    "texto": "Hacerle caso a las voces en mi cabeza"
+  },
+  {
+    "id": 67,
+    "tipo": "blanca",
+    "texto": "Forros sabor cordero patagónico"
+  },
+  {
+    "id": 68,
+    "tipo": "blanca",
+    "texto": "El líquido azul de las propagandas de toallitas"
+  },
+  {
+    "id": 69,
+    "tipo": "blanca",
+    "texto": "Ese festival chino donde comen carne de perro"
+  },
+  {
+    "id": 70,
+    "tipo": "blanca",
+    "texto": "La subtrenmetrocleta"
+  },
+  {
+    "id": 71,
+    "tipo": "blanca",
+    "texto": "El pibe de Mi pobre angelito"
+  },
+  {
+    "id": 72,
+    "tipo": "blanca",
+    "texto": "La década ganada"
+  },
+  {
+    "id": 73,
+    "tipo": "blanca",
+    "texto": "Quebrar en la previa"
+  },
+  {
+    "id": 74,
+    "tipo": "blanca",
+    "texto": "Un banco de esperma"
+  },
+  {
+    "id": 75,
+    "tipo": "blanca",
+    "texto": "La Bonaerense"
+  },
+  {
+    "id": 76,
+    "tipo": "blanca",
+    "texto": "La 12"
+  },
+  {
+    "id": 77,
+    "tipo": "blanca",
+    "texto": "Imponer socialmente el Día de la Concha"
+  },
+  {
+    "id": 78,
+    "tipo": "blanca",
+    "texto": "El sex shop al final de la galería"
+  },
+  {
+    "id": 79,
+    "tipo": "blanca",
+    "texto": "Sentir que me están cagando"
+  },
+  {
+    "id": 80,
+    "tipo": "blanca",
+    "texto": "Frodo, Sam y los otros dos"
+  },
+  {
+    "id": 81,
+    "tipo": "blanca",
+    "texto": "Consumir drogas duras"
+  },
+  {
+    "id": 82,
+    "tipo": "blanca",
+    "texto": "Una bicicleta con dos vergas en lugar de manubrio"
+  },
+  {
+    "id": 83,
+    "tipo": "blanca",
+    "texto": "Maiameeeee"
+  },
+  {
+    "id": 84,
+    "tipo": "blanca",
+    "texto": "La navaja de MacGyver"
+  },
+  {
+    "id": 85,
+    "tipo": "blanca",
+    "texto": "Un mal flash"
+  },
+  {
+    "id": 86,
+    "tipo": "blanca",
+    "texto": "Cagar al prójimo"
+  },
+  {
+    "id": 87,
+    "tipo": "blanca",
+    "texto": "La santa Biblia"
+  },
+  {
+    "id": 88,
+    "tipo": "blanca",
+    "texto": "Larry, Curly y Moe"
+  },
+  {
+    "id": 89,
+    "tipo": "blanca",
+    "texto": "Irse a vivir al Uritorco"
+  },
+  {
+    "id": 90,
+    "tipo": "blanca",
+    "texto": "La justicia por mano propia"
+  },
+  {
+    "id": 91,
+    "tipo": "blanca",
+    "texto": "El testículo del medio"
+  },
+  {
+    "id": 92,
+    "tipo": "blanca",
+    "texto": "El amor de Viggo Mortensen por San Lorenzo"
+  },
+  {
+    "id": 93,
+    "tipo": "blanca",
+    "texto": "El Gauchito Gil"
+  },
+  {
+    "id": 94,
+    "tipo": "blanca",
+    "texto": "Los barones del conurbano"
+  },
+  {
+    "id": 95,
+    "tipo": "blanca",
+    "texto": "La homofobia"
+  },
+  {
+    "id": 96,
+    "tipo": "blanca",
+    "texto": "La clase obrera"
+  },
+  {
+    "id": 97,
+    "tipo": "blanca",
+    "texto": "Fingir el orgasmo"
+  },
+  {
+    "id": 98,
+    "tipo": "blanca",
+    "texto": "Ponerla"
+  },
+  {
+    "id": 99,
+    "tipo": "blanca",
+    "texto": "Un sueño húmedo"
+  },
+  {
+    "id": 100,
+    "tipo": "blanca",
+    "texto": "La gilada"
+  },
+  {
+    "id": 101,
+    "tipo": "blanca",
+    "texto": "El gol de Diego a los ingleses"
+  },
+  {
+    "id": 102,
+    "tipo": "blanca",
+    "texto": "La SIDE"
+  },
+  {
+    "id": 103,
+    "tipo": "blanca",
+    "texto": "Pobreza digna"
+  },
+  {
+    "id": 104,
+    "tipo": "blanca",
+    "texto": "Un grupo de viejos fachos"
+  },
+  {
+    "id": 105,
+    "tipo": "blanca",
+    "texto": "El anillo de cuero"
+  },
+  {
+    "id": 106,
+    "tipo": "blanca",
+    "texto": "El anticristo"
+  },
+  {
+    "id": 107,
+    "tipo": "blanca",
+    "texto": "Un perrito con ruedas en lugar de patas traseras"
+  },
+  {
+    "id": 108,
+    "tipo": "blanca",
+    "texto": "Cambiar de género"
+  },
+  {
+    "id": 109,
+    "tipo": "blanca",
+    "texto": "Un guiso de escrotos"
+  },
+  {
+    "id": 110,
+    "tipo": "blanca",
+    "texto": "La pica entre colectiveros y taxistas"
+  },
+  {
+    "id": 111,
+    "tipo": "blanca",
+    "texto": "Depilarse el pecho"
+  },
+  {
+    "id": 112,
+    "tipo": "blanca",
+    "texto": "La siesta santiagueña"
+  },
+  {
+    "id": 113,
+    "tipo": "blanca",
+    "texto": "Un masaje de próstata"
+  },
+  {
+    "id": 114,
+    "tipo": "blanca",
+    "texto": "Los kelpers"
+  },
+  {
+    "id": 115,
+    "tipo": "blanca",
+    "texto": "Hacerte el orto"
+  },
+  {
+    "id": 116,
+    "tipo": "blanca",
+    "texto": "El tipo con el que fantasea tu vieja"
+  },
+  {
+    "id": 117,
+    "tipo": "blanca",
+    "texto": "Los piqueteros"
+  },
+  {
+    "id": 118,
+    "tipo": "blanca",
+    "texto": "Tener cara de boludo"
+  },
+  {
+    "id": 119,
+    "tipo": "blanca",
+    "texto": "El hijo de puta que se está cogiendo al amor de tu vida"
+  },
+  {
+    "id": 120,
+    "tipo": "blanca",
+    "texto": "El negro que muere primero en las películas mientras vos estás jugando a esto"
+  },
+  {
+    "id": 121,
+    "tipo": "blanca",
+    "texto": "Un Pollock de caca"
+  },
+  {
+    "id": 122,
+    "tipo": "blanca",
+    "texto": "Viajar en la línea Sarmiento"
+  },
+  {
+    "id": 123,
+    "tipo": "blanca",
+    "texto": "Una fuerte tendencia a la necrofilia"
+  },
+  {
+    "id": 124,
+    "tipo": "blanca",
+    "texto": "Un señor desnudo llorando en la calle"
+  },
+  {
+    "id": 125,
+    "tipo": "blanca",
+    "texto": "Dos semanas de retraso"
+  },
+  {
+    "id": 126,
+    "tipo": "blanca",
+    "texto": "Oler la ropa interior de tu vieja"
+  },
+  {
+    "id": 127,
+    "tipo": "blanca",
+    "texto": "Los niños rata"
+  },
+  {
+    "id": 128,
+    "tipo": "blanca",
+    "texto": "Mi colección de rosarios anales"
+  },
+  {
+    "id": 129,
+    "tipo": "blanca",
+    "texto": "Un volcán de semen"
+  },
+  {
+    "id": 130,
+    "tipo": "blanca",
+    "texto": "La asfixia erótica"
+  },
+  {
+    "id": 131,
+    "tipo": "blanca",
+    "texto": "Salir del clóset"
+  },
+  {
+    "id": 132,
+    "tipo": "blanca",
+    "texto": "Un culo peludo"
+  },
+  {
+    "id": 133,
+    "tipo": "blanca",
+    "texto": "El gigoló de Rosario"
+  },
+  {
+    "id": 134,
+    "tipo": "blanca",
+    "texto": "Diciembre de 2001"
+  },
+  {
+    "id": 135,
+    "tipo": "blanca",
+    "texto": "La celulitis"
+  },
+  {
+    "id": 136,
+    "tipo": "blanca",
+    "texto": "Las invasiones bárbaras"
+  },
+  {
+    "id": 137,
+    "tipo": "blanca",
+    "texto": "Los fluidos vaginales"
+  },
+  {
+    "id": 138,
+    "tipo": "blanca",
+    "texto": "El tipo que piensa las placas de Crónica"
+  },
+  {
+    "id": 139,
+    "tipo": "blanca",
+    "texto": "La del mono"
+  },
+  {
+    "id": 140,
+    "tipo": "blanca",
+    "texto": "Pinchar forros"
+  },
+  {
+    "id": 141,
+    "tipo": "blanca",
+    "texto": "Sacar los pelos de la rejilla del baño"
+  },
+  {
+    "id": 142,
+    "tipo": "blanca",
+    "texto": "Aguantar los trapos"
+  },
+  {
+    "id": 143,
+    "tipo": "blanca",
+    "texto": "Borrar una publicación porque nadie le dio like"
+  },
+  {
+    "id": 144,
+    "tipo": "blanca",
+    "texto": "Cenar atún directo de la lata"
+  },
+  {
+    "id": 145,
+    "tipo": "blanca",
+    "texto": "Un supositorio"
+  },
+  {
+    "id": 146,
+    "tipo": "blanca",
+    "texto": "Meter los cuernos"
+  },
+  {
+    "id": 147,
+    "tipo": "blanca",
+    "texto": "La fiesta"
+  },
+  {
+    "id": 148,
+    "tipo": "blanca",
+    "texto": "Hacer cucharita con Hitler"
+  },
+  {
+    "id": 149,
+    "tipo": "blanca",
+    "texto": "Tu vieja"
+  },
+  {
+    "id": 150,
+    "tipo": "blanca",
+    "texto": "El tráfico de órganos"
+  },
+  {
+    "id": 151,
+    "tipo": "blanca",
+    "texto": "La infertilidad"
+  },
+  {
+    "id": 152,
+    "tipo": "blanca",
+    "texto": "El espiral para los mosquitos"
+  },
+  {
+    "id": 153,
+    "tipo": "blanca",
+    "texto": "El paco"
+  },
+  {
+    "id": 154,
+    "tipo": "blanca",
+    "texto": "Un niño africano y su AK-47"
+  },
+  {
+    "id": 155,
+    "tipo": "blanca",
+    "texto": "Amar animales más de lo que alguien debería amar un animal"
+  },
+  {
+    "id": 156,
+    "tipo": "blanca",
+    "texto": "Las islas Malvinas"
+  },
+  {
+    "id": 157,
+    "tipo": "blanca",
+    "texto": "El racismo"
+  },
+  {
+    "id": 158,
+    "tipo": "blanca",
+    "texto": "El sadomasoquismo"
+  },
+  {
+    "id": 159,
+    "tipo": "blanca",
+    "texto": "Rosa, la maravillosa"
+  },
+  {
+    "id": 160,
+    "tipo": "blanca",
+    "texto": "La fe cristiana"
+  },
+  {
+    "id": 161,
+    "tipo": "blanca",
+    "texto": "Un payaso"
+  },
+  {
+    "id": 162,
+    "tipo": "blanca",
+    "texto": "El chi chi chi le le le"
+  },
+  {
+    "id": 163,
+    "tipo": "blanca",
+    "texto": "Un ginecólogo pediatra"
+  },
+  {
+    "id": 164,
+    "tipo": "blanca",
+    "texto": "No tener códigos"
+  },
+  {
+    "id": 165,
+    "tipo": "blanca",
+    "texto": "Ese tío raro que tienen todas las familias"
+  },
+  {
+    "id": 166,
+    "tipo": "blanca",
+    "texto": "Las anécdotas de mi viejo"
+  },
+  {
+    "id": 167,
+    "tipo": "blanca",
+    "texto": "Malos modales"
+  },
+  {
+    "id": 168,
+    "tipo": "blanca",
+    "texto": "Una inerte barra de carbón"
+  },
+  {
+    "id": 169,
+    "tipo": "blanca",
+    "texto": "La fiesta de la espuma"
+  },
+  {
+    "id": 170,
+    "tipo": "blanca",
+    "texto": "Un proctólogo"
+  },
+  {
+    "id": 171,
+    "tipo": "blanca",
+    "texto": "La bipolaridad"
+  },
+  {
+    "id": 172,
+    "tipo": "blanca",
+    "texto": "Instalar la monarquía en la Argentina"
+  },
+  {
+    "id": 173,
+    "tipo": "blanca",
+    "texto": "Ponerle pasas de uva a las empanadas"
+  },
+  {
+    "id": 174,
+    "tipo": "blanca",
+    "texto": "Una denuncia de Carrió"
+  },
+  {
+    "id": 175,
+    "tipo": "blanca",
+    "texto": "Creer en el horóscopo"
+  },
+  {
+    "id": 176,
+    "tipo": "blanca",
+    "texto": "La zona roja"
+  },
+  {
+    "id": 177,
+    "tipo": "blanca",
+    "texto": "El vértigo en la cola"
+  },
+  {
+    "id": 178,
+    "tipo": "blanca",
+    "texto": "La adicción al sexo"
+  },
+  {
+    "id": 179,
+    "tipo": "blanca",
+    "texto": "Stalkear a tu ex en redes sociales"
+  },
+  {
+    "id": 180,
+    "tipo": "blanca",
+    "texto": "El acoso sexual en el subte"
+  },
+  {
+    "id": 181,
+    "tipo": "blanca",
+    "texto": "Fosas comunes"
+  },
+  {
+    "id": 182,
+    "tipo": "blanca",
+    "texto": "El gluten"
+  },
+  {
+    "id": 183,
+    "tipo": "blanca",
+    "texto": "Mi hermano"
+  },
+  {
+    "id": 184,
+    "tipo": "blanca",
+    "texto": "La versión braille del Kamasutra"
+  },
+  {
+    "id": 185,
+    "tipo": "blanca",
+    "texto": "Ir a misa"
+  },
+  {
+    "id": 186,
+    "tipo": "blanca",
+    "texto": "Algún pelotudo de la farándula al azar"
+  },
+  {
+    "id": 187,
+    "tipo": "blanca",
+    "texto": "La pena de muerte"
+  },
+  {
+    "id": 188,
+    "tipo": "blanca",
+    "texto": "Sacarla y acabar afuera"
+  },
+  {
+    "id": 189,
+    "tipo": "blanca",
+    "texto": "Un cinturonga"
+  },
+  {
+    "id": 190,
+    "tipo": "blanca",
+    "texto": "Un ataque de palometas"
+  },
+  {
+    "id": 191,
+    "tipo": "blanca",
+    "texto": "Un poster de la concha de tu hermana"
+  },
+  {
+    "id": 192,
+    "tipo": "blanca",
+    "texto": "Los mormones"
+  },
+  {
+    "id": 193,
+    "tipo": "blanca",
+    "texto": "Irse en seco"
+  },
+  {
+    "id": 194,
+    "tipo": "blanca",
+    "texto": "Adolf Hitler"
+  },
+  {
+    "id": 195,
+    "tipo": "blanca",
+    "texto": "Un tuca"
+  },
+  {
+    "id": 196,
+    "tipo": "blanca",
+    "texto": "Un super chino"
+  },
+  {
+    "id": 197,
+    "tipo": "blanca",
+    "texto": "Agacharse y conocerlo"
+  },
+  {
+    "id": 198,
+    "tipo": "blanca",
+    "texto": "Las inundaciones"
+  },
+  {
+    "id": 199,
+    "tipo": "blanca",
+    "texto": "El cuco"
+  },
+  {
+    "id": 200,
+    "tipo": "blanca",
+    "texto": "El segundo cordón del conurbano bonaerense"
+  },
+  {
+    "id": 201,
+    "tipo": "blanca",
+    "texto": "El fundamentalismo vegano"
+  },
+  {
+    "id": 202,
+    "tipo": "blanca",
+    "texto": "Probar con un yogur"
+  },
+  {
+    "id": 203,
+    "tipo": "blanca",
+    "texto": "La cara de Cristiano cuando le dan un premio a Messi"
+  },
+  {
+    "id": 204,
+    "tipo": "blanca",
+    "texto": "La computadorita por la que habla Stephen Hawking"
+  },
+  {
+    "id": 205,
+    "tipo": "blanca",
+    "texto": "Revisarle el celu a tu pareja"
+  },
+  {
+    "id": 206,
+    "tipo": "blanca",
+    "texto": "Mi jefe"
+  },
+  {
+    "id": 207,
+    "tipo": "blanca",
+    "texto": "Un enema"
+  },
+  {
+    "id": 208,
+    "tipo": "blanca",
+    "texto": "Un metrodelegado"
+  },
+  {
+    "id": 209,
+    "tipo": "blanca",
+    "texto": "La Deep Web"
+  },
+  {
+    "id": 210,
+    "tipo": "blanca",
+    "texto": "Jugar al Jenga con un sobreviviente de las Torres Gemelas"
+  },
+  {
+    "id": 211,
+    "tipo": "blanca",
+    "texto": "La esvástica"
+  },
+  {
+    "id": 212,
+    "tipo": "blanca",
+    "texto": "Un frasquito con un feto adentro"
+  },
+  {
+    "id": 213,
+    "tipo": "blanca",
+    "texto": "Una foto mía de hace 5 años"
+  },
+  {
+    "id": 214,
+    "tipo": "blanca",
+    "texto": "Las manos de todos los pibes arriba"
+  },
+  {
+    "id": 215,
+    "tipo": "blanca",
+    "texto": "La raza aria"
+  },
+  {
+    "id": 216,
+    "tipo": "blanca",
+    "texto": "Un harén de cholas peruanas"
+  },
+  {
+    "id": 217,
+    "tipo": "blanca",
+    "texto": "Ponerse la gorra"
+  },
+  {
+    "id": 218,
+    "tipo": "blanca",
+    "texto": "Las manos de Perón"
+  },
+  {
+    "id": 219,
+    "tipo": "blanca",
+    "texto": "Una lluvia de pijas"
+  },
+  {
+    "id": 220,
+    "tipo": "blanca",
+    "texto": "Lo que queda del radicalismo"
+  },
+  {
+    "id": 221,
+    "tipo": "blanca",
+    "texto": "Querer que vuelvan los militares"
+  },
+  {
+    "id": 222,
+    "tipo": "blanca",
+    "texto": "Tomar medio vasito de orina"
+  },
+  {
+    "id": 223,
+    "tipo": "blanca",
+    "texto": "Un video de ISIS decapitando periodistas"
+  },
+  {
+    "id": 224,
+    "tipo": "blanca",
+    "texto": "Un dildo de dos puntas"
+  },
+  {
+    "id": 225,
+    "tipo": "blanca",
+    "texto": "Las hemorroides"
+  },
+  {
+    "id": 226,
+    "tipo": "blanca",
+    "texto": "La Tercera Guerra Mundial"
+  },
+  {
+    "id": 227,
+    "tipo": "blanca",
+    "texto": "Tener las bolas por el piso"
+  },
+  {
+    "id": 228,
+    "tipo": "blanca",
+    "texto": "Vivir rodeado de pelotudos"
+  },
+  {
+    "id": 229,
+    "tipo": "blanca",
+    "texto": "Los skinheads"
+  },
+  {
+    "id": 230,
+    "tipo": "blanca",
+    "texto": "Hacer molinete"
+  },
+  {
+    "id": 231,
+    "tipo": "blanca",
+    "texto": "Coger con extraños"
+  },
+  {
+    "id": 232,
+    "tipo": "blanca",
+    "texto": "Un arquero paraguayo con el ego altísimo"
+  },
+  {
+    "id": 233,
+    "tipo": "blanca",
+    "texto": "Matilda"
+  },
+  {
+    "id": 234,
+    "tipo": "blanca",
+    "texto": "La pincita de la depiladora"
+  },
+  {
+    "id": 235,
+    "tipo": "blanca",
+    "texto": "El Dalai Lama"
+  },
+  {
+    "id": 236,
+    "tipo": "blanca",
+    "texto": "El amor"
+  },
+  {
+    "id": 237,
+    "tipo": "blanca",
+    "texto": "Opinar sin saber"
+  },
+  {
+    "id": 238,
+    "tipo": "blanca",
+    "texto": "El calentamiento global"
+  },
+  {
+    "id": 239,
+    "tipo": "blanca",
+    "texto": "La discriminación"
+  },
+  {
+    "id": 240,
+    "tipo": "blanca",
+    "texto": "La eutanasia"
+  },
+  {
+    "id": 241,
+    "tipo": "blanca",
+    "texto": "La mafia china"
+  },
+  {
+    "id": 242,
+    "tipo": "blanca",
+    "texto": "Herpes bucales"
+  },
+  {
+    "id": 243,
+    "tipo": "blanca",
+    "texto": "Llegar virgen al matrimonio"
+  },
+  {
+    "id": 244,
+    "tipo": "blanca",
+    "texto": "La Difunta Correa"
+  },
+  {
+    "id": 245,
+    "tipo": "blanca",
+    "texto": "Jesús"
+  },
+  {
+    "id": 246,
+    "tipo": "blanca",
+    "texto": "El Día de la Lealtad"
+  },
+  {
+    "id": 247,
+    "tipo": "blanca",
+    "texto": "Salpicar la tapa del inodoro"
+  },
+  {
+    "id": 248,
+    "tipo": "blanca",
+    "texto": "La posibilidad de una guerra nuclear"
+  },
+  {
+    "id": 249,
+    "tipo": "blanca",
+    "texto": "El cavado profundo"
+  },
+  {
+    "id": 250,
+    "tipo": "blanca",
+    "texto": "Un brote de dengue"
+  },
+  {
+    "id": 251,
+    "tipo": "blanca",
+    "texto": "La que hace la traducción para sordomudos"
+  },
+  {
+    "id": 252,
+    "tipo": "blanca",
+    "texto": "Un conchero"
+  },
+  {
+    "id": 253,
+    "tipo": "blanca",
+    "texto": "El Ku Klux Klan"
+  },
+  {
+    "id": 254,
+    "tipo": "blanca",
+    "texto": "La servidumbre"
+  },
+  {
+    "id": 255,
+    "tipo": "blanca",
+    "texto": "Una MILF"
+  },
+  {
+    "id": 256,
+    "tipo": "blanca",
+    "texto": "(Nombrá al jugador de tu derecha)"
+  },
+  {
+    "id": 257,
+    "tipo": "blanca",
+    "texto": "El autor intelectual del crimen de Cabezas"
+  },
+  {
+    "id": 258,
+    "tipo": "blanca",
+    "texto": "Los pelirrojos"
+  },
+  {
+    "id": 259,
+    "tipo": "blanca",
+    "texto": "Rambo"
+  },
+  {
+    "id": 260,
+    "tipo": "blanca",
+    "texto": "Un motochorro"
+  },
+  {
+    "id": 261,
+    "tipo": "blanca",
+    "texto": "El antidoping"
+  },
+  {
+    "id": 262,
+    "tipo": "blanca",
+    "texto": "Darle para que tenga"
+  },
+  {
+    "id": 263,
+    "tipo": "blanca",
+    "texto": "El olor a bebé"
+  },
+  {
+    "id": 264,
+    "tipo": "blanca",
+    "texto": "Un chiste misógino"
+  },
+  {
+    "id": 265,
+    "tipo": "blanca",
+    "texto": "El culto al crossfit"
+  },
+  {
+    "id": 266,
+    "tipo": "blanca",
+    "texto": "Legalizar el aborto"
+  },
+  {
+    "id": 267,
+    "tipo": "blanca",
+    "texto": "Una wacha piola"
+  },
+  {
+    "id": 268,
+    "tipo": "blanca",
+    "texto": "El sueño de ser campeón de Gimnasia"
+  },
+  {
+    "id": 269,
+    "tipo": "blanca",
+    "texto": "Una bañera llena de tibia leche"
+  },
+  {
+    "id": 270,
+    "tipo": "blanca",
+    "texto": "Los porteños"
+  },
+  {
+    "id": 271,
+    "tipo": "blanca",
+    "texto": "Una salidera bancaria"
+  },
+  {
+    "id": 272,
+    "tipo": "blanca",
+    "texto": "El pibe de sistemas"
+  },
+  {
+    "id": 273,
+    "tipo": "blanca",
+    "texto": "El incesto"
+  },
+  {
+    "id": 274,
+    "tipo": "blanca",
+    "texto": "La cárcel de Devoto"
+  },
+  {
+    "id": 275,
+    "tipo": "blanca",
+    "texto": "Un puñal de carne"
+  },
+  {
+    "id": 276,
+    "tipo": "blanca",
+    "texto": "El machismo"
+  },
+  {
+    "id": 277,
+    "tipo": "blanca",
+    "texto": "Negar el Holocausto"
+  },
+  {
+    "id": 278,
+    "tipo": "blanca",
+    "texto": "ISIS"
+  },
+  {
+    "id": 279,
+    "tipo": "blanca",
+    "texto": "El rigor mortis"
+  },
+  {
+    "id": 280,
+    "tipo": "blanca",
+    "texto": "El colesterol alto"
+  },
+  {
+    "id": 281,
+    "tipo": "blanca",
+    "texto": "Los ensayos nucleares de Corea del Norte"
+  },
+  {
+    "id": 282,
+    "tipo": "blanca",
+    "texto": "Lamer axilas"
+  },
+  {
+    "id": 283,
+    "tipo": "blanca",
+    "texto": "Tapar el baño"
+  },
+  {
+    "id": 284,
+    "tipo": "blanca",
+    "texto": "El 70% de descuento en la segunda unidad"
+  },
+  {
+    "id": 285,
+    "tipo": "blanca",
+    "texto": "La pubertad"
+  },
+  {
+    "id": 286,
+    "tipo": "blanca",
+    "texto": "La leche cortada"
+  },
+  {
+    "id": 287,
+    "tipo": "blanca",
+    "texto": "La barba candado"
+  },
+  {
+    "id": 288,
+    "tipo": "blanca",
+    "texto": "Vladimir Putin"
+  },
+  {
+    "id": 289,
+    "tipo": "blanca",
+    "texto": "La AFIP"
+  },
+  {
+    "id": 290,
+    "tipo": "blanca",
+    "texto": "Automedicarse"
+  },
+  {
+    "id": 291,
+    "tipo": "blanca",
+    "texto": "Quedarse pelado"
+  },
+  {
+    "id": 292,
+    "tipo": "blanca",
+    "texto": "Una tirada de goma decepcionante"
+  },
+  {
+    "id": 293,
+    "tipo": "blanca",
+    "texto": "La pulserita roja contra la envidia"
+  },
+  {
+    "id": 294,
+    "tipo": "blanca",
+    "texto": "Un deportista argentino en una Final"
+  },
+  {
+    "id": 295,
+    "tipo": "blanca",
+    "texto": "El Opus Dei"
+  },
+  {
+    "id": 296,
+    "tipo": "blanca",
+    "texto": "Una mujer con los pies muy pequeños y el pene muy grande"
+  },
+  {
+    "id": 297,
+    "tipo": "blanca",
+    "texto": "Un pedo vaginal"
+  },
+  {
+    "id": 298,
+    "tipo": "blanca",
+    "texto": "Jugar al teto"
+  },
+  {
+    "id": 299,
+    "tipo": "blanca",
+    "texto": "La concha de la lora"
+  },
+  {
+    "id": 300,
+    "tipo": "blanca",
+    "texto": "Cerrar el orto"
+  },
+  {
+    "id": 301,
+    "tipo": "blanca",
+    "texto": "Los pañales para adultos"
+  },
+  {
+    "id": 302,
+    "tipo": "blanca",
+    "texto": "Recuerdos reprimidos"
+  },
+  {
+    "id": 303,
+    "tipo": "blanca",
+    "texto": "La copa menstrual"
+  },
+  {
+    "id": 304,
+    "tipo": "blanca",
+    "texto": "La pastilla del día después"
+  },
+  {
+    "id": 305,
+    "tipo": "blanca",
+    "texto": "Un culo come trapo"
+  },
+  {
+    "id": 306,
+    "tipo": "blanca",
+    "texto": "La ira de Dios"
+  },
+  {
+    "id": 307,
+    "tipo": "blanca",
+    "texto": "La carpita mañanera"
+  },
+  {
+    "id": 308,
+    "tipo": "blanca",
+    "texto": "El pueblo judío"
+  },
+  {
+    "id": 309,
+    "tipo": "blanca",
+    "texto": "El papa Francisco"
+  },
+  {
+    "id": 310,
+    "tipo": "blanca",
+    "texto": "Una jauría de lobos salvajes"
+  },
+  {
+    "id": 311,
+    "tipo": "blanca",
+    "texto": "Eructar el abecedario"
+  },
+  {
+    "id": 312,
+    "tipo": "blanca",
+    "texto": "Sergio Massa"
+  },
+  {
+    "id": 313,
+    "tipo": "blanca",
+    "texto": "Mauricio Macri"
+  },
+  {
+    "id": 314,
+    "tipo": "blanca",
+    "texto": "Esa tibia sensación que sentís cuando levantás la caca del perro con una bolsita"
+  },
+  {
+    "id": 315,
+    "tipo": "blanca",
+    "texto": "Brownies con gusto a pasto"
+  },
+  {
+    "id": 316,
+    "tipo": "blanca",
+    "texto": "La Iglesia maradoniana"
+  },
+  {
+    "id": 317,
+    "tipo": "blanca",
+    "texto": "Una silla de ruedas"
+  },
+  {
+    "id": 318,
+    "tipo": "blanca",
+    "texto": "Un test de embarazo positivo"
+  },
+  {
+    "id": 319,
+    "tipo": "blanca",
+    "texto": "La flacidez"
+  },
+  {
+    "id": 320,
+    "tipo": "blanca",
+    "texto": "Un accidente en un parque de diversiones"
+  },
+  {
+    "id": 321,
+    "tipo": "blanca",
+    "texto": "Matar al último panda"
+  },
+  {
+    "id": 322,
+    "tipo": "blanca",
+    "texto": "El porno gay"
+  },
+  {
+    "id": 323,
+    "tipo": "blanca",
+    "texto": "Las bicisendas"
+  },
+  {
+    "id": 324,
+    "tipo": "blanca",
+    "texto": "Mirar nenas en jumper"
+  },
+  {
+    "id": 325,
+    "tipo": "blanca",
+    "texto": "(Nombrá al jugador de tu izquierda)"
+  },
+  {
+    "id": 326,
+    "tipo": "blanca",
+    "texto": "La cumbia villera"
+  },
+  {
+    "id": 327,
+    "tipo": "blanca",
+    "texto": "Coger con cocaína en la punta de la verga"
+  },
+  {
+    "id": 328,
+    "tipo": "blanca",
+    "texto": "Usar sandalias con medias"
+  },
+  {
+    "id": 329,
+    "tipo": "blanca",
+    "texto": "Un cabeza de termo"
+  },
+  {
+    "id": 330,
+    "tipo": "blanca",
+    "texto": "La muerte"
+  },
+  {
+    "id": 331,
+    "tipo": "blanca",
+    "texto": "Parir en el auto"
+  },
+  {
+    "id": 332,
+    "tipo": "blanca",
+    "texto": "Preguntarle si está por acabar"
+  },
+  {
+    "id": 333,
+    "tipo": "blanca",
+    "texto": "Auschwitz"
+  },
+  {
+    "id": 334,
+    "tipo": "blanca",
+    "texto": "Lágrimas de semen"
+  },
+  {
+    "id": 335,
+    "tipo": "blanca",
+    "texto": "Orgasmos múltiples"
+  },
+  {
+    "id": 336,
+    "tipo": "blanca",
+    "texto": "Tu situación laboral"
+  },
+  {
+    "id": 337,
+    "tipo": "blanca",
+    "texto": "Una verga más ancha que larga"
+  },
+  {
+    "id": 338,
+    "tipo": "blanca",
+    "texto": "La tira de cola"
+  },
+  {
+    "id": 339,
+    "tipo": "blanca",
+    "texto": "El negro pijudo del WhatsApp"
+  },
+  {
+    "id": 340,
+    "tipo": "blanca",
+    "texto": "El carnaval carioca"
+  },
+  {
+    "id": 341,
+    "tipo": "blanca",
+    "texto": "El trabajo esclavo"
+  },
+  {
+    "id": 342,
+    "tipo": "blanca",
+    "texto": "El FMI"
+  },
+  {
+    "id": 343,
+    "tipo": "blanca",
+    "texto": "La plata de los jubilados"
+  },
+  {
+    "id": 344,
+    "tipo": "blanca",
+    "texto": "Pindonga y Cuchuflito"
+  },
+  {
+    "id": 345,
+    "tipo": "blanca",
+    "texto": "La macrisis"
+  },
+  {
+    "id": 346,
+    "tipo": "blanca",
+    "texto": "La revolución de la alegría"
+  },
+  {
+    "id": 347,
+    "tipo": "blanca",
+    "texto": "Los gordos de la CGT"
+  },
+  {
+    "id": 348,
+    "tipo": "blanca",
+    "texto": "Un excombatiente"
+  },
+  {
+    "id": 349,
+    "tipo": "blanca",
+    "texto": "La democracia venezolana"
+  },
+  {
+    "id": 350,
+    "tipo": "blanca",
+    "texto": "Los planes trabajar"
+  },
+  {
+    "id": 351,
+    "tipo": "blanca",
+    "texto": "Hebe"
+  },
+  {
+    "id": 352,
+    "tipo": "blanca",
+    "texto": "Pagar la deuda"
+  },
+  {
+    "id": 353,
+    "tipo": "blanca",
+    "texto": "Robar, robarse todo, absolutamente todo"
+  },
+  {
+    "id": 354,
+    "tipo": "blanca",
+    "texto": "La guerra civil del 2025"
+  },
+  {
+    "id": 355,
+    "tipo": "blanca",
+    "texto": "El día después de las PASO"
+  },
+  {
+    "id": 356,
+    "tipo": "blanca",
+    "texto": "Desaparecer gente"
+  },
+  {
+    "id": 357,
+    "tipo": "blanca",
+    "texto": "Evita"
+  },
+  {
+    "id": 358,
+    "tipo": "blanca",
+    "texto": "Venderse al mejor postor"
+  },
+  {
+    "id": 359,
+    "tipo": "blanca",
+    "texto": "Aumentar la edad de la jubilación"
+  },
+  {
+    "id": 360,
+    "tipo": "blanca",
+    "texto": "Fiesta en el bunker de Macri"
+  },
+  {
+    "id": 361,
+    "tipo": "blanca",
+    "texto": "Las vacaciones de Macri"
+  },
+  {
+    "id": 362,
+    "tipo": "blanca",
+    "texto": "Espiar a la población"
+  },
+  {
+    "id": 363,
+    "tipo": "blanca",
+    "texto": "CFK"
+  },
+  {
+    "id": 364,
+    "tipo": "blanca",
+    "texto": "Las remeras del Che"
+  },
+  {
+    "id": 365,
+    "tipo": "blanca",
+    "texto": "Enterrar bolsos en un convento"
+  },
+  {
+    "id": 366,
+    "tipo": "blanca",
+    "texto": "La hiperinflación"
+  },
+  {
+    "id": 367,
+    "tipo": "blanca",
+    "texto": "Un golpe de Estado"
+  },
+  {
+    "id": 368,
+    "tipo": "blanca",
+    "texto": "Un peroncho"
+  },
+  {
+    "id": 369,
+    "tipo": "blanca",
+    "texto": "Juan Domingo Perón"
+  },
+  {
+    "id": 370,
+    "tipo": "blanca",
+    "texto": "Los zurditos"
+  },
+  {
+    "id": 371,
+    "tipo": "blanca",
+    "texto": "La educación pública"
+  },
+  {
+    "id": 372,
+    "tipo": "blanca",
+    "texto": "María Eugenia Vidal"
+  },
+  {
+    "id": 373,
+    "tipo": "blanca",
+    "texto": "Ser comunista"
+  },
+  {
+    "id": 374,
+    "tipo": "blanca",
+    "texto": "Odiar la democracia"
+  },
+  {
+    "id": 375,
+    "tipo": "blanca",
+    "texto": "La corte suprema"
+  },
+  {
+    "id": 376,
+    "tipo": "blanca",
+    "texto": "La anarquía"
+  },
+  {
+    "id": 377,
+    "tipo": "blanca",
+    "texto": "La amistad entre la federal y la metropolitana"
+  },
+  {
+    "id": 378,
+    "tipo": "blanca",
+    "texto": "Carlos Saúl"
+  },
+  {
+    "id": 379,
+    "tipo": "blanca",
+    "texto": "Un Falcon verde transformer"
+  },
+  {
+    "id": 380,
+    "tipo": "blanca",
+    "texto": "La clase media"
+  },
+  {
+    "id": 381,
+    "tipo": "blanca",
+    "texto": "Invadir las Malvinas"
+  },
+  {
+    "id": 382,
+    "tipo": "blanca",
+    "texto": "Tener sexo oral con un perrito"
+  },
+  {
+    "id": 383,
+    "tipo": "blanca",
+    "texto": "La sequedad vaginal"
+  },
+  {
+    "id": 384,
+    "tipo": "blanca",
+    "texto": "La anorgasmia femenina"
+  },
+  {
+    "id": 385,
+    "tipo": "blanca",
+    "texto": "Un plug anal con strass de 10cm de largo"
+  },
+  {
+    "id": 386,
+    "tipo": "blanca",
+    "texto": "Un pedo vaginal"
+  },
+  {
+    "id": 387,
+    "tipo": "blanca",
+    "texto": "Un anillo penenano"
+  },
+  {
+    "id": 388,
+    "tipo": "blanca",
+    "texto": "Muchos meses sin coger"
+  },
+  {
+    "id": 389,
+    "tipo": "blanca",
+    "texto": "Chupar un culo"
+  },
+  {
+    "id": 390,
+    "tipo": "blanca",
+    "texto": "El sudor en medio de las tetas"
+  },
+  {
+    "id": 391,
+    "tipo": "blanca",
+    "texto": "Coger drogado"
+  },
+  {
+    "id": 392,
+    "tipo": "blanca",
+    "texto": "La eyaculación precoz"
+  },
+  {
+    "id": 393,
+    "tipo": "blanca",
+    "texto": "Coger pensando en ex"
+  },
+  {
+    "id": 394,
+    "tipo": "blanca",
+    "texto": "El twerking"
+  },
+  {
+    "id": 395,
+    "tipo": "blanca",
+    "texto": "Una booty call"
+  },
+  {
+    "id": 396,
+    "tipo": "blanca",
+    "texto": "Un orgasmo de 10 minutos"
+  },
+  {
+    "id": 397,
+    "tipo": "blanca",
+    "texto": "La mema"
+  },
+  {
+    "id": 398,
+    "tipo": "blanca",
+    "texto": "Las pinzas para pezones"
+  },
+  {
+    "id": 399,
+    "tipo": "blanca",
+    "texto": "Meterla sin confianza"
+  },
+  {
+    "id": 400,
+    "tipo": "blanca",
+    "texto": "Un luthier de dildos"
+  },
+  {
+    "id": 401,
+    "tipo": "blanca",
+    "texto": "El ciempiés humano"
+  },
+  {
+    "id": 402,
+    "tipo": "blanca",
+    "texto": "Tocarme con la otra mano"
+  },
+  {
+    "id": 403,
+    "tipo": "blanca",
+    "texto": "Una vulva en llamas"
+  },
+  {
+    "id": 404,
+    "tipo": "blanca",
+    "texto": "Poner la vagina en un pedestal"
+  },
+  {
+    "id": 405,
+    "tipo": "blanca",
+    "texto": "Calentarme con menores de edad"
+  },
+  {
+    "id": 406,
+    "tipo": "blanca",
+    "texto": "Una pija tan grande que tenga un codo"
+  },
+  {
+    "id": 407,
+    "tipo": "blanca",
+    "texto": "Una primera vez sin forro"
+  },
+  {
+    "id": 408,
+    "tipo": "blanca",
+    "texto": "Sasha Grey"
+  },
+  {
+    "id": 409,
+    "tipo": "blanca",
+    "texto": "Coger con embarazadas"
+  },
+  {
+    "id": 410,
+    "tipo": "blanca",
+    "texto": "Semen fluorescente"
+  },
+  {
+    "id": 411,
+    "tipo": "blanca",
+    "texto": "Una esfera vaginal"
+  },
+  {
+    "id": 412,
+    "tipo": "blanca",
+    "texto": "El vaginismo"
+  },
+  {
+    "id": 413,
+    "tipo": "blanca",
+    "texto": "Poner un forro con la boca"
+  },
+  {
+    "id": 414,
+    "tipo": "blanca",
+    "texto": "Relajarse y gozar"
+  },
+  {
+    "id": 415,
+    "tipo": "blanca",
+    "texto": "Morir en un telo"
+  },
+  {
+    "id": 416,
+    "tipo": "blanca",
+    "texto": "Un dedito en el culo"
+  },
+  {
+    "id": 417,
+    "tipo": "blanca",
+    "texto": "El fin de la monogamia"
+  },
+  {
+    "id": 418,
+    "tipo": "blanca",
+    "texto": "Un toro mecánico con forma de pene"
+  },
+  {
+    "id": 419,
+    "tipo": "blanca",
+    "texto": "La diferencia entre coger y violar"
+  },
+  {
+    "id": 420,
+    "tipo": "blanca",
+    "texto": "Un trío con un familiar"
+  },
+  {
+    "id": 421,
+    "tipo": "blanca",
+    "texto": "Un velorio a cajon cerrado"
+  },
+  {
+    "id": 422,
+    "tipo": "blanca",
+    "texto": "Dar un like sin querer"
+  },
+  {
+    "id": 423,
+    "tipo": "blanca",
+    "texto": "La violencia doméstica"
+  },
+  {
+    "id": 424,
+    "tipo": "blanca",
+    "texto": "El gas pimienta"
+  },
+  {
+    "id": 425,
+    "tipo": "blanca",
+    "texto": "Un puterío"
+  },
+  {
+    "id": 426,
+    "tipo": "blanca",
+    "texto": "Los patovicas"
+  },
+  {
+    "id": 427,
+    "tipo": "blanca",
+    "texto": "Un sordomudo"
+  },
+  {
+    "id": 428,
+    "tipo": "blanca",
+    "texto": "Circuncidarse de grande"
+  },
+  {
+    "id": 429,
+    "tipo": "blanca",
+    "texto": "Media docena de huevos"
+  },
+  {
+    "id": 430,
+    "tipo": "blanca",
+    "texto": "El zombie de Freddie Mercury"
+  },
+  {
+    "id": 431,
+    "tipo": "blanca",
+    "texto": "Subir la vara"
+  },
+  {
+    "id": 432,
+    "tipo": "blanca",
+    "texto": "El celibato"
+  },
+  {
+    "id": 433,
+    "tipo": "blanca",
+    "texto": "El olor a chivo"
+  },
+  {
+    "id": 434,
+    "tipo": "blanca",
+    "texto": "Un bombardeo con drones"
+  },
+  {
+    "id": 435,
+    "tipo": "blanca",
+    "texto": "Ser pecho frío"
+  },
+  {
+    "id": 436,
+    "tipo": "blanca",
+    "texto": "Un caso de gatillo fácil"
+  },
+  {
+    "id": 437,
+    "tipo": "blanca",
+    "texto": "La capacidad de amar de un abogado"
+  },
+  {
+    "id": 438,
+    "tipo": "blanca",
+    "texto": "Un nene llorando"
+  },
+  {
+    "id": 439,
+    "tipo": "blanca",
+    "texto": "Un juicio por alimentos"
+  },
+  {
+    "id": 440,
+    "tipo": "blanca",
+    "texto": "Un cordinador de viaje de egresados"
+  },
+  {
+    "id": 441,
+    "tipo": "blanca",
+    "texto": "Los manteros"
+  },
+  {
+    "id": 442,
+    "tipo": "blanca",
+    "texto": "Despertar en el bondi cubierto de baba"
+  },
+  {
+    "id": 443,
+    "tipo": "blanca",
+    "texto": "Enterrar evidencias"
+  },
+  {
+    "id": 444,
+    "tipo": "blanca",
+    "texto": "El servicio secreto uruguayo"
+  },
+  {
+    "id": 445,
+    "tipo": "blanca",
+    "texto": "La comunidad mapuche"
+  },
+  {
+    "id": 446,
+    "tipo": "blanca",
+    "texto": "El cuartito donde los asesinos seriales guardan las fotos de sus víctimas"
+  },
+  {
+    "id": 447,
+    "tipo": "blanca",
+    "texto": "Vender poesía en el colectivo"
+  },
+  {
+    "id": 448,
+    "tipo": "blanca",
+    "texto": "Un cinturón de cuero"
+  },
+  {
+    "id": 449,
+    "tipo": "blanca",
+    "texto": "Sacarse el anillo de casamiento"
+  },
+  {
+    "id": 450,
+    "tipo": "blanca",
+    "texto": "Manosear el joystick"
+  },
+  {
+    "id": 451,
+    "tipo": "blanca",
+    "texto": "La comida para perros"
+  },
+  {
+    "id": 452,
+    "tipo": "blanca",
+    "texto": "La dentadura de la abuela"
+  },
+  {
+    "id": 453,
+    "tipo": "blanca",
+    "texto": "Un ataque de pánico"
+  },
+  {
+    "id": 454,
+    "tipo": "blanca",
+    "texto": "La dura y triste realidad"
+  },
+  {
+    "id": 455,
+    "tipo": "blanca",
+    "texto": "El Espíritu Santo"
+  },
+  {
+    "id": 456,
+    "tipo": "blanca",
+    "texto": "El faso"
+  },
+  {
+    "id": 457,
+    "tipo": "blanca",
+    "texto": "El juguito que gotea de una bolsa de basura"
+  },
+  {
+    "id": 458,
+    "tipo": "blanca",
+    "texto": "Amigos con derechos"
+  },
+  {
+    "id": 459,
+    "tipo": "blanca",
+    "texto": "Una incubadora"
+  },
+  {
+    "id": 460,
+    "tipo": "blanca",
+    "texto": "Una oveja en baby doll"
+  },
+  {
+    "id": 461,
+    "tipo": "blanca",
+    "texto": "Vender humo"
+  },
+  {
+    "id": 462,
+    "tipo": "blanca",
+    "texto": "Mandar a otro al antidoping"
+  },
+  {
+    "id": 463,
+    "tipo": "blanca",
+    "texto": "Perder con Alemania"
+  },
+  {
+    "id": 464,
+    "tipo": "blanca",
+    "texto": "Un exabrupto de Pagani"
+  },
+  {
+    "id": 465,
+    "tipo": "blanca",
+    "texto": "Subir al avión con el plantel de Chapecoense"
+  },
+  {
+    "id": 466,
+    "tipo": "blanca",
+    "texto": "Un delantero del ascenso"
+  },
+  {
+    "id": 467,
+    "tipo": "blanca",
+    "texto": "Poner un poco más de huevo"
+  },
+  {
+    "id": 468,
+    "tipo": "blanca",
+    "texto": "Picarla en el último penal"
+  },
+  {
+    "id": 469,
+    "tipo": "blanca",
+    "texto": "Un parlante en la tribuna"
+  },
+  {
+    "id": 470,
+    "tipo": "blanca",
+    "texto": "Incendiar tu propio estadio"
+  },
+  {
+    "id": 471,
+    "tipo": "blanca",
+    "texto": "Apretar jugadores"
+  },
+  {
+    "id": 472,
+    "tipo": "blanca",
+    "texto": "Prostituir a los pibes de las inferiores"
+  },
+  {
+    "id": 473,
+    "tipo": "blanca",
+    "texto": "Pagarle a la barra"
+  },
+  {
+    "id": 474,
+    "tipo": "blanca",
+    "texto": "El gordo de \"Andá a la cancha bobo\""
+  },
+  {
+    "id": 475,
+    "tipo": "blanca",
+    "texto": "Encontrale barrio a San Lorenzo"
+  },
+  {
+    "id": 476,
+    "tipo": "blanca",
+    "texto": "La muerte de un hincha"
+  },
+  {
+    "id": 477,
+    "tipo": "blanca",
+    "texto": "Ir a robar a China"
+  },
+  {
+    "id": 478,
+    "tipo": "blanca",
+    "texto": "Gritar \"¡¡Estamos en la B!!\""
+  },
+  {
+    "id": 479,
+    "tipo": "blanca",
+    "texto": "Eliminar a Brasil de un Mundial"
+  },
+  {
+    "id": 480,
+    "tipo": "blanca",
+    "texto": "El 3 de Midland"
+  },
+  {
+    "id": 481,
+    "tipo": "blanca",
+    "texto": "Banfield y esos equipos así"
+  },
+  {
+    "id": 482,
+    "tipo": "blanca",
+    "texto": "Entrar a la cancha con la barra"
+  },
+  {
+    "id": 483,
+    "tipo": "blanca",
+    "texto": "Salir jugando de abajo"
+  },
+  {
+    "id": 484,
+    "tipo": "blanca",
+    "texto": "Vélesh"
+  },
+  {
+    "id": 485,
+    "tipo": "blanca",
+    "texto": "Pasar 40 años sin salir campeón"
+  },
+  {
+    "id": 486,
+    "tipo": "blanca",
+    "texto": "Una botinera"
+  },
+  {
+    "id": 487,
+    "tipo": "blanca",
+    "texto": "Perder la final de la Libertadores"
+  },
+  {
+    "id": 488,
+    "tipo": "blanca",
+    "texto": "Arsenal campeón"
+  },
+  {
+    "id": 489,
+    "tipo": "blanca",
+    "texto": "El mechón amarillo del Diego en el '95"
+  },
+  {
+    "id": 490,
+    "tipo": "blanca",
+    "texto": "Los amarrrrrgos"
+  },
+  {
+    "id": 491,
+    "tipo": "blanca",
+    "texto": "Desgarrarse el ano por la camiseta"
+  },
+  {
+    "id": 492,
+    "tipo": "blanca",
+    "texto": "Reventar un micro a piedrazos"
+  },
+  {
+    "id": 493,
+    "tipo": "blanca",
+    "texto": "Darle el Mundial a un país de mierda"
+  },
+  {
+    "id": 494,
+    "tipo": "blanca",
+    "texto": "El choripán de cancha"
+  },
+  {
+    "id": 495,
+    "tipo": "blanca",
+    "texto": "El gordo ventilador"
+  },
+  {
+    "id": 496,
+    "tipo": "blanca",
+    "texto": "Mandar al arquero a cabecear"
+  },
+  {
+    "id": 497,
+    "tipo": "blanca",
+    "texto": "Las peleas en el vestuario de Boca"
+  },
+  {
+    "id": 498,
+    "tipo": "blanca",
+    "texto": "Eeeeeeeeeeeeee"
+  },
+  {
+    "id": 499,
+    "tipo": "blanca",
+    "texto": "Un meme de Higuaín"
+  },
+  {
+    "id": 500,
+    "tipo": "blanca",
+    "texto": "Velar a un barra en la cancha"
+  },
+  {
+    "id": 501,
+    "tipo": "blanca",
+    "texto": "Amar a Dios por sobre todas las cosas"
+  },
+  {
+    "id": 502,
+    "tipo": "blanca",
+    "texto": "Matar en nombre de Dios"
+  },
+  {
+    "id": 503,
+    "tipo": "blanca",
+    "texto": "Tirar el I Ching"
+  },
+  {
+    "id": 504,
+    "tipo": "blanca",
+    "texto": "Los pastafaris"
+  },
+  {
+    "id": 505,
+    "tipo": "blanca",
+    "texto": "Ir caminando a Luján"
+  },
+  {
+    "id": 506,
+    "tipo": "blanca",
+    "texto": "Moisés"
+  },
+  {
+    "id": 507,
+    "tipo": "blanca",
+    "texto": "Llevarle el CV a San Cayetano"
+  },
+  {
+    "id": 508,
+    "tipo": "blanca",
+    "texto": "Un pene circuncidado"
+  },
+  {
+    "id": 509,
+    "tipo": "blanca",
+    "texto": "Pasar por debajo de una escalera"
+  },
+  {
+    "id": 510,
+    "tipo": "blanca",
+    "texto": "Un consolador con forma de crucifijo"
+  },
+  {
+    "id": 511,
+    "tipo": "blanca",
+    "texto": "Convertir un cine en una iglesia"
+  },
+  {
+    "id": 512,
+    "tipo": "blanca",
+    "texto": "Ese amigo que todos tenemos que dice que es budista"
+  },
+  {
+    "id": 513,
+    "tipo": "blanca",
+    "texto": "El tipo de \"Pare de sufrir\""
+  },
+  {
+    "id": 514,
+    "tipo": "blanca",
+    "texto": "El ascendente en Tauro"
+  },
+  {
+    "id": 515,
+    "tipo": "blanca",
+    "texto": "Rezar 5 veces al día por obligación"
+  },
+  {
+    "id": 516,
+    "tipo": "blanca",
+    "texto": "Ir de levante a la iglesia"
+  },
+  {
+    "id": 517,
+    "tipo": "blanca",
+    "texto": "El juego de la copa"
+  },
+  {
+    "id": 518,
+    "tipo": "blanca",
+    "texto": "Un judío ortodoxo"
+  },
+  {
+    "id": 519,
+    "tipo": "blanca",
+    "texto": "Desear a la pareja de mi projimo"
+  },
+  {
+    "id": 520,
+    "tipo": "blanca",
+    "texto": "Un video de Bar Mitzvah"
+  },
+  {
+    "id": 521,
+    "tipo": "blanca",
+    "texto": "El amor de Jesucristo"
+  },
+  {
+    "id": 522,
+    "tipo": "blanca",
+    "texto": "Un solemne y digno Ramadán"
+  },
+  {
+    "id": 523,
+    "tipo": "blanca",
+    "texto": "Adán y Eva"
+  },
+  {
+    "id": 524,
+    "tipo": "blanca",
+    "texto": "La Yihad"
+  },
+  {
+    "id": 525,
+    "tipo": "blanca",
+    "texto": "Tirar la primera piedra"
+  },
+  {
+    "id": 526,
+    "tipo": "blanca",
+    "texto": "La Iglesia Adventista del Séptimo Día"
+  },
+  {
+    "id": 527,
+    "tipo": "blanca",
+    "texto": "Una aparición de la virgen"
+  },
+  {
+    "id": 528,
+    "tipo": "blanca",
+    "texto": "Mefistófeles"
+  },
+  {
+    "id": 529,
+    "tipo": "blanca",
+    "texto": "Gritar \"Alá es grande\""
+  },
+  {
+    "id": 530,
+    "tipo": "blanca",
+    "texto": "El santo Grial"
+  },
+  {
+    "id": 531,
+    "tipo": "blanca",
+    "texto": "Los Jedis"
+  },
+  {
+    "id": 532,
+    "tipo": "blanca",
+    "texto": "Tocarse el huevo izquierdo cuando ves a un pelirrojo"
+  },
+  {
+    "id": 533,
+    "tipo": "blanca",
+    "texto": "Una macumba"
+  },
+  {
+    "id": 534,
+    "tipo": "blanca",
+    "texto": "Invadir Jerusalén"
+  },
+  {
+    "id": 535,
+    "tipo": "blanca",
+    "texto": "El olor a monja"
+  },
+  {
+    "id": 536,
+    "tipo": "blanca",
+    "texto": "Quemar científicos en la hoguera"
+  },
+  {
+    "id": 537,
+    "tipo": "blanca",
+    "texto": "Los terraplanistas"
+  },
+  {
+    "id": 538,
+    "tipo": "blanca",
+    "texto": "Decirle a un cura que Jesús era gay"
+  },
+  {
+    "id": 539,
+    "tipo": "blanca",
+    "texto": "Querer que vuelva la Inquisición"
+  },
+  {
+    "id": 540,
+    "tipo": "blanca",
+    "texto": "El reiki"
+  },
+  {
+    "id": 541,
+    "tipo": "blanca",
+    "texto": "Un apretón de manos húmedo"
+  },
+  {
+    "id": 542,
+    "tipo": "blanca",
+    "texto": "Bajonear bondiola a las 6 de la mañana"
+  },
+  {
+    "id": 543,
+    "tipo": "blanca",
+    "texto": "Un grupo de nudistas"
+  },
+  {
+    "id": 544,
+    "tipo": "blanca",
+    "texto": "El maltrato infantil"
+  },
+  {
+    "id": 545,
+    "tipo": "blanca",
+    "texto": "El genocidio armenio"
+  },
+  {
+    "id": 546,
+    "tipo": "blanca",
+    "texto": "Un telemarketer"
+  },
+  {
+    "id": 547,
+    "tipo": "blanca",
+    "texto": "La pizza con ananá"
+  },
+  {
+    "id": 548,
+    "tipo": "blanca",
+    "texto": "Los pobres"
+  },
+  {
+    "id": 549,
+    "tipo": "blanca",
+    "texto": "Una vasectomía"
+  },
+  {
+    "id": 550,
+    "tipo": "blanca",
+    "texto": "El Diegote"
+  },
+  {
+    "id": 551,
+    "tipo": "blanca",
+    "texto": "Quejarse al pedo"
+  },
+  {
+    "id": 552,
+    "tipo": "blanca",
+    "texto": "La codicia"
+  },
+  {
+    "id": 553,
+    "tipo": "blanca",
+    "texto": "Invadir Polonia"
+  },
+  {
+    "id": 554,
+    "tipo": "blanca",
+    "texto": "La brutalidad policial"
+  },
+  {
+    "id": 555,
+    "tipo": "blanca",
+    "texto": "Pedirle la SUBE a un desconocido"
+  },
+  {
+    "id": 556,
+    "tipo": "blanca",
+    "texto": "Un niño prodigio"
+  },
+  {
+    "id": 557,
+    "tipo": "blanca",
+    "texto": "El sentimiento de culpa"
+  },
+  {
+    "id": 558,
+    "tipo": "blanca",
+    "texto": "El día a día de un oncólogo"
+  },
+  {
+    "id": 559,
+    "tipo": "blanca",
+    "texto": "Un futuro donde Chile sea potencia nuclear"
+  },
+  {
+    "id": 560,
+    "tipo": "blanca",
+    "texto": "El Secretario General de la ONU"
+  },
+  {
+    "id": 561,
+    "tipo": "blanca",
+    "texto": "Un senegalés vendiendo cadenitas"
+  },
+  {
+    "id": 562,
+    "tipo": "blanca",
+    "texto": "Abandonar la escena del accidente"
+  },
+  {
+    "id": 563,
+    "tipo": "blanca",
+    "texto": "Una aerolínea de Malasia"
+  },
+  {
+    "id": 564,
+    "tipo": "blanca",
+    "texto": "Roncar como un hijo de puta"
+  },
+  {
+    "id": 565,
+    "tipo": "blanca",
+    "texto": "Restos humanos"
+  },
+  {
+    "id": 566,
+    "tipo": "blanca",
+    "texto": "Los empleados públicos"
+  },
+  {
+    "id": 567,
+    "tipo": "blanca",
+    "texto": "Pedirle un taxi"
+  },
+  {
+    "id": 568,
+    "tipo": "blanca",
+    "texto": "Un sommelier de dildos"
+  },
+  {
+    "id": 569,
+    "tipo": "blanca",
+    "texto": "Salir con alguien que estuvo preso"
+  },
+  {
+    "id": 570,
+    "tipo": "blanca",
+    "texto": "Un gran Danés"
+  },
+  {
+    "id": 571,
+    "tipo": "blanca",
+    "texto": "La falta de imaginación"
+  },
+  {
+    "id": 572,
+    "tipo": "blanca",
+    "texto": "Tener arena en los genitales"
+  },
+  {
+    "id": 573,
+    "tipo": "blanca",
+    "texto": "Las cenizas del abuelo"
+  },
+  {
+    "id": 574,
+    "tipo": "blanca",
+    "texto": "El fuego a discreción"
+  },
+  {
+    "id": 575,
+    "tipo": "blanca",
+    "texto": "Una fiesta fuera de control"
+  },
+  {
+    "id": 576,
+    "tipo": "blanca",
+    "texto": "Una montaña de merca"
+  },
+  {
+    "id": 577,
+    "tipo": "blanca",
+    "texto": "La friendzone"
+  },
+  {
+    "id": 578,
+    "tipo": "blanca",
+    "texto": "Moco, mucho moco"
+  },
+  {
+    "id": 579,
+    "tipo": "blanca",
+    "texto": "Una riñonera"
+  },
+  {
+    "id": 580,
+    "tipo": "blanca",
+    "texto": "Un enano llamado Marcelo"
+  },
+  {
+    "id": 581,
+    "tipo": "blanca",
+    "texto": "Tapar rampas para discapacitados"
+  },
+  {
+    "id": 582,
+    "tipo": "blanca",
+    "texto": "Un irrefrenable deseo de autoflagelarse"
+  },
+  {
+    "id": 583,
+    "tipo": "blanca",
+    "texto": "Una pasti"
+  },
+  {
+    "id": 584,
+    "tipo": "blanca",
+    "texto": "Una vagina con dientes"
+  },
+  {
+    "id": 585,
+    "tipo": "blanca",
+    "texto": "Tener una amigo yihadista"
+  },
+  {
+    "id": 586,
+    "tipo": "blanca",
+    "texto": "Un nieto recuperado"
+  },
+  {
+    "id": 587,
+    "tipo": "blanca",
+    "texto": "La igualdad de género"
+  },
+  {
+    "id": 588,
+    "tipo": "blanca",
+    "texto": "No pagar los sueldos"
+  },
+  {
+    "id": 589,
+    "tipo": "blanca",
+    "texto": "Usar la misma ropa interior durante 10 días"
+  },
+  {
+    "id": 590,
+    "tipo": "blanca",
+    "texto": "Pegarle a personas en situación de calle"
+  },
+  {
+    "id": 591,
+    "tipo": "blanca",
+    "texto": "Un taller clandestino"
+  },
+  {
+    "id": 592,
+    "tipo": "blanca",
+    "texto": "Comprar en La Salada"
+  },
+  {
+    "id": 593,
+    "tipo": "blanca",
+    "texto": "Atender boludos"
+  },
+  {
+    "id": 594,
+    "tipo": "blanca",
+    "texto": "Las visitas conyugales"
+  },
+  {
+    "id": 595,
+    "tipo": "blanca",
+    "texto": "Los cacos"
+  },
+  {
+    "id": 596,
+    "tipo": "blanca",
+    "texto": "Un anillo para penes"
+  },
+  {
+    "id": 597,
+    "tipo": "blanca",
+    "texto": "Perder todo en el casino"
+  },
+  {
+    "id": 598,
+    "tipo": "blanca",
+    "texto": "El arresto domiciliario"
+  },
+  {
+    "id": 599,
+    "tipo": "blanca",
+    "texto": "Reprimir con balas de goma"
+  },
+  {
+    "id": 600,
+    "tipo": "blanca",
+    "texto": "Que se vaya todo a la mierda"
+  },
+  {
+    "id": 601,
+    "tipo": "blanca",
+    "texto": "Un poquito de racismo, no mucho"
+  },
+  {
+    "id": 602,
+    "tipo": "blanca",
+    "texto": "Borrar el historial"
+  },
+  {
+    "id": 603,
+    "tipo": "blanca",
+    "texto": "El olor a culo"
+  },
+  {
+    "id": 604,
+    "tipo": "blanca",
+    "texto": "Una cabeza descomunal"
+  },
+  {
+    "id": 605,
+    "tipo": "blanca",
+    "texto": "Un jabón lleno de pelos"
+  },
+  {
+    "id": 606,
+    "tipo": "blanca",
+    "texto": "Amamantar en el bondi"
+  },
+  {
+    "id": 607,
+    "tipo": "blanca",
+    "texto": "Figurar en el Registro Nacional de Delincuentes Sexuales"
+  },
+  {
+    "id": 608,
+    "tipo": "blanca",
+    "texto": "El orificio anal de (nombrá al jugador de tu izquierda con nombre y apellido)"
+  },
+  {
+    "id": 609,
+    "tipo": "blanca",
+    "texto": "Peinarla para adentro"
+  },
+  {
+    "id": 610,
+    "tipo": "blanca",
+    "texto": "Punguear turistas"
+  },
+  {
+    "id": 611,
+    "tipo": "blanca",
+    "texto": "Lo que (nombrá al jugador de tu izquierda) hace por las noches"
+  },
+  {
+    "id": 612,
+    "tipo": "blanca",
+    "texto": "Dos patys gigantes"
+  },
+  {
+    "id": 613,
+    "tipo": "blanca",
+    "texto": "Un sueldo digno para los docentes"
+  },
+  {
+    "id": 614,
+    "tipo": "blanca",
+    "texto": "Un esguince de próstata"
+  },
+  {
+    "id": 615,
+    "tipo": "blanca",
+    "texto": "La gente que cree que su pareja es el amor de su vida"
+  },
+  {
+    "id": 616,
+    "tipo": "blanca",
+    "texto": "Alcohólicos Anónimos"
+  },
+  {
+    "id": 617,
+    "tipo": "blanca",
+    "texto": "Despacito"
+  },
+  {
+    "id": 618,
+    "tipo": "blanca",
+    "texto": "Tener dos penes"
+  },
+  {
+    "id": 619,
+    "tipo": "blanca",
+    "texto": "La bulimia"
+  },
+  {
+    "id": 620,
+    "tipo": "blanca",
+    "texto": "Un brote psicótico con delirio místico"
+  },
+  {
+    "id": 621,
+    "tipo": "blanca",
+    "texto": "Hacer tai chi en bolas"
+  },
+  {
+    "id": 622,
+    "tipo": "blanca",
+    "texto": "La primera vez de (nombrá al jugador de tu izquierda)"
+  },
+  {
+    "id": 623,
+    "tipo": "blanca",
+    "texto": "Un calzón cagado"
+  },
+  {
+    "id": 624,
+    "tipo": "blanca",
+    "texto": "La gente de mierda"
+  },
+  {
+    "id": 625,
+    "tipo": "blanca",
+    "texto": "Esos oscuros momentos de la niñez que nadie quiere recordar"
+  },
+  {
+    "id": 626,
+    "tipo": "blanca",
+    "texto": "Una testiculoscopía"
+  },
+  {
+    "id": 627,
+    "tipo": "blanca",
+    "texto": "Coger con una monja"
+  },
+  {
+    "id": 628,
+    "tipo": "blanca",
+    "texto": "Saquear supermercados antes de las fiestas"
+  },
+  {
+    "id": 629,
+    "tipo": "blanca",
+    "texto": "Una enfermedad hereditaria"
+  },
+  {
+    "id": 630,
+    "tipo": "blanca",
+    "texto": "La línea C del subte"
+  },
+  {
+    "id": 631,
+    "tipo": "blanca",
+    "texto": "Más pelo del que una persona normal debería tener"
+  },
+  {
+    "id": 632,
+    "tipo": "blanca",
+    "texto": "El perreo intenso"
+  },
+  {
+    "id": 633,
+    "tipo": "blanca",
+    "texto": "El squirting"
+  },
+  {
+    "id": 634,
+    "tipo": "blanca",
+    "texto": "El sueño de tener un trabajo en blanco"
+  },
+  {
+    "id": 635,
+    "tipo": "blanca",
+    "texto": "Mensajear a un ex estando borracho"
+  },
+  {
+    "id": 636,
+    "tipo": "blanca",
+    "texto": "Deportar refugiados"
+  },
+  {
+    "id": 637,
+    "tipo": "blanca",
+    "texto": "Los 21 mil desaparecidos de diferencia"
+  },
+  {
+    "id": 638,
+    "tipo": "blanca",
+    "texto": "Un tetazo"
+  },
+  {
+    "id": 639,
+    "tipo": "blanca",
+    "texto": "Bombardear Plaza de Mayo"
+  },
+  {
+    "id": 640,
+    "tipo": "blanca",
+    "texto": "Juzgar a la gente por su color de piel"
+  },
+  {
+    "id": 641,
+    "tipo": "blanca",
+    "texto": "(Nombrá al jugador de tu derecha) gimiendo descontroladamente"
+  },
+  {
+    "id": 642,
+    "tipo": "blanca",
+    "texto": "La estimulación anal"
+  },
+  {
+    "id": 643,
+    "tipo": "blanca",
+    "texto": "Coimear canas"
+  },
+  {
+    "id": 644,
+    "tipo": "blanca",
+    "texto": "Echar discapacitados"
+  },
+  {
+    "id": 645,
+    "tipo": "blanca",
+    "texto": "Darle plata a un trapito"
+  },
+  {
+    "id": 646,
+    "tipo": "blanca",
+    "texto": "Ser inimputable"
+  },
+  {
+    "id": 647,
+    "tipo": "blanca",
+    "texto": "Los crímenes de lesa humanidad"
+  },
+  {
+    "id": 648,
+    "tipo": "blanca",
+    "texto": "Ir de putas"
+  },
+  {
+    "id": 649,
+    "tipo": "blanca",
+    "texto": "El colectivo LGBT"
+  },
+  {
+    "id": 650,
+    "tipo": "blanca",
+    "texto": "La baja autoestima"
+  },
+  {
+    "id": 651,
+    "tipo": "blanca",
+    "texto": "Sentir placer cagando a otros"
+  },
+  {
+    "id": 652,
+    "tipo": "blanca",
+    "texto": "Desayunar con vodka"
+  },
+  {
+    "id": 653,
+    "tipo": "blanca",
+    "texto": "Nacer con el corazón ortiba"
+  },
+  {
+    "id": 654,
+    "tipo": "blanca",
+    "texto": "Una patada en los huevos"
+  },
+  {
+    "id": 655,
+    "tipo": "blanca",
+    "texto": "La Asignación Universal por Hijo"
+  },
+  {
+    "id": 656,
+    "tipo": "blanca",
+    "texto": "La víctima argentina en un atentado"
+  },
+  {
+    "id": 657,
+    "tipo": "blanca",
+    "texto": "El sexting"
+  },
+  {
+    "id": 658,
+    "tipo": "blanca",
+    "texto": "Desalojar manteros"
+  },
+  {
+    "id": 659,
+    "tipo": "blanca",
+    "texto": "Hacer de Videla en una obra del colegio"
+  },
   {
     "id": 660,
     "tipo": "negra",
-    "texto": "No te puedo explicar el asco que me da"
+    "texto": "No te puedo explicar el asco que me da ______"
   },
   {
     "id": 661,
     "tipo": "negra",
-    "texto": "Trágico accidente deja 35 heridos. La causa:"
+    "texto": "Trágico accidente deja 35 heridos. La causa: ______"
   },
   {
     "id": 662,
     "tipo": "negra",
-    "texto": "La causa de la Tercera Guerra Mundial va a ser"
+    "texto": "La causa de la Tercera Guerra Mundial va a ser ______"
   },
   {
     "id": 663,
     "tipo": "negra",
-    "texto": "Mi viejo siempre decía: \"En la mesa no se habla de política ni de\""
+    "texto": "Mi viejo siempre decía: \"En la mesa no se habla de política ni de\" ______"
   },
   {
     "id": 664,
     "tipo": "negra",
-    "texto": "Almuerzan hoy con la señora: ______ y ______"
+    "texto": "Almuerzan hoy con la señora: ______ y ______",
+    "doble_respuesta": true
   },
   {
     "id": 665,
     "tipo": "negra",
-    "texto": "El tiburón más grande es el tiburón ballena. Pero el más raro es el tiburón"
+    "texto": "El tiburón más grande es el tiburón ballena. Pero el más raro es el tiburón ______"
   },
   {
     "id": 666,
     "tipo": "negra",
-    "texto": "Se solicita a los señores pasajeros",
+    "texto": "Se solicita a los señores pasajeros ______",
     "articulo_opcional": true
   },
   {
     "id": 667,
     "tipo": "negra",
-    "texto": "El médico me dijo que fue un milagro, pero de ahora en más, nada de"
+    "texto": "El médico me dijo que fue un milagro, pero de ahora en más, nada de ______"
   },
   {
     "id": 668,
     "tipo": "negra",
-    "texto": "Mi vida sexual es comparable a",
+    "texto": "Mi vida sexual es comparable a ______",
     "articulo_opcional": true
   },
   {
     "id": 669,
     "tipo": "negra",
-    "texto": "No sé si es el momento para decirlo, pero ayer"
+    "texto": "No sé si es el momento para decirlo, pero ayer ______"
   },
   {
     "id": 670,
     "tipo": "negra",
-    "texto": "La nueva pareja del Bailando: ______ y ______"
+    "texto": "La nueva pareja del Bailando: ______ y ______",
+    "doble_respuesta": true
   },
   {
     "id": 671,
     "tipo": "negra",
     "texto": "Científicos crearon un robot mitad ______ y mitad ______",
-    "articulo_opcional": true
+    "articulo_opcional": true,
+    "doble_respuesta": true
   },
   {
     "id": 672,
     "tipo": "negra",
-    "texto": "(nombrá a un jugador de la mesa) me dijo que tenía pesadillas recurrentes con"
+    "texto": "(nombrá a un jugador de la mesa) me dijo que tenía pesadillas recurrentes con ______"
   },
   {
     "id": 673,
@@ -734,39 +3373,39 @@
   {
     "id": 674,
     "tipo": "negra",
-    "texto": "Macri reemplazó los cuadros de la Casa Rosada por cuadros de",
+    "texto": "Macri reemplazó los cuadros de la Casa Rosada por cuadros de ______",
     "articulo_opcional": true
   },
   {
     "id": 675,
     "tipo": "negra",
-    "texto": "Piedra, papel o"
+    "texto": "Piedra, papel o ______"
   },
   {
     "id": 676,
     "tipo": "negra",
-    "texto": "Lo que más excita a (nombrá a un jugador de la mesa) es"
+    "texto": "Lo que más excita a (nombrá a un jugador de la mesa) es ______"
   },
   {
     "id": 677,
     "tipo": "negra",
-    "texto": "Lo único que le gusta más a los Pumas que cantar el himno es",
+    "texto": "Lo único que le gusta más a los Pumas que cantar el himno es ______",
     "articulo_opcional": true
   },
   {
     "id": 678,
     "tipo": "negra",
-    "texto": "El problema de la Iglesia es que está controlada por"
+    "texto": "El problema de la Iglesia es que está controlada por ______"
   },
   {
     "id": 679,
     "tipo": "negra",
-    "texto": "Lo más difícil de ser ciego debe ser"
+    "texto": "Lo más difícil de ser ciego debe ser ______"
   },
   {
     "id": 680,
     "tipo": "negra",
-    "texto": "Solo dos cosas pueden lastimar a Superman: la kryptonita y"
+    "texto": "Solo dos cosas pueden lastimar a Superman: la kryptonita y ______"
   },
   {
     "id": 681,
@@ -776,22 +3415,23 @@
   {
     "id": 682,
     "tipo": "negra",
-    "texto": "¿Cuál es el peor regalo que te pueden hacer?"
+    "texto": "¿Cuál es el peor regalo que te pueden hacer? ______"
   },
   {
     "id": 683,
     "tipo": "negra",
-    "texto": "La verdad es que soy un privilegiado, vivo de"
+    "texto": "La verdad es que soy un privilegiado, vivo de ______"
   },
   {
     "id": 684,
     "tipo": "negra",
-    "texto": "Nos conocimos en una fiesta de disfraces. Se disfrazó de ______ y yo de ______"
+    "texto": "Nos conocimos en una fiesta de disfraces. Se disfrazó de ______ y yo de ______",
+    "doble_respuesta": true
   },
   {
     "id": 685,
     "tipo": "negra",
-    "texto": "¿De qué fue testigo Jehová?",
+    "texto": "¿De qué fue testigo Jehová? ______",
     "articulo_opcional": true
   },
   {
@@ -803,65 +3443,67 @@
   {
     "id": 687,
     "tipo": "negra",
-    "texto": "Entre mi porno tengo una carpeta entera dedicada a",
+    "texto": "Entre mi porno tengo una carpeta entera dedicada a ______",
     "articulo_opcional": true
   },
   {
     "id": 688,
     "tipo": "negra",
-    "texto": "No hay nada mejor para una primera cita que"
+    "texto": "No hay nada mejor para una primera cita que ______"
   },
   {
     "id": 689,
     "tipo": "negra",
-    "texto": "El homeópata me recomendó"
+    "texto": "El homeópata me recomendó ______"
   },
   {
     "id": 690,
     "tipo": "negra",
-    "texto": "Plantar un árbol, escribir un libro,"
+    "texto": "Plantar un árbol, escribir un libro, ______"
   },
   {
     "id": 691,
     "tipo": "negra",
-    "texto": "Mi libro se va a llamar: ______, una historia sobre ______"
+    "texto": "Mi libro se va a llamar: ______, una historia sobre ______",
+    "doble_respuesta": true
   },
   {
     "id": 692,
     "tipo": "negra",
-    "texto": "Solo hay una cosa que me gusta más que coger:",
+    "texto": "Solo hay una cosa que me gusta más que coger: ______",
     "articulo_opcional": true
   },
   {
     "id": 693,
     "tipo": "negra",
-    "texto": "De pibe tenía el álbum de figuritas de",
+    "texto": "De pibe tenía el álbum de figuritas de ______",
     "articulo_opcional": true
   },
   {
     "id": 694,
     "tipo": "negra",
-    "texto": "Por las noches soy un superhéroe conocido como ______ y mi superpoder es ______"
+    "texto": "Por las noches soy un superhéroe conocido como ______ y mi superpoder es ______",
+    "doble_respuesta": true
   },
   {
     "id": 695,
     "tipo": "negra",
-    "texto": "Se difundió una encuesta que dice que al 71% de los argentinos les gusta"
+    "texto": "Se difundió una encuesta que dice que al 71% de los argentinos les gusta ______"
   },
   {
     "id": 696,
     "tipo": "negra",
-    "texto": "Cuando tenía tiempo, en lugar de la Z el Zorro te dibujaba"
+    "texto": "Cuando tenía tiempo, en lugar de la Z el Zorro te dibujaba ______"
   },
   {
     "id": 697,
     "tipo": "negra",
-    "texto": "Lo que más bronca le da a (nombrá a un jugador de la mesa) es:"
+    "texto": "Lo que más bronca le da a (nombrá a un jugador de la mesa) es: ______"
   },
   {
     "id": 698,
     "tipo": "negra",
-    "texto": "Todos los días de 20 a 21 me tomo una horita para"
+    "texto": "Todos los días de 20 a 21 me tomo una horita para ______"
   },
   {
     "id": 699,
@@ -871,7 +3513,7 @@
   {
     "id": 700,
     "tipo": "negra",
-    "texto": "¿Quién estuvo detrás del atentado a la AMIA?"
+    "texto": "¿Quién estuvo detrás del atentado a la AMIA? ______"
   },
   {
     "id": 701,
@@ -881,144 +3523,146 @@
   {
     "id": 702,
     "tipo": "negra",
-    "texto": "Donald Trump podrá tener todo el dinero del mundo, pero nunca podrá tener"
+    "texto": "Donald Trump podrá tener todo el dinero del mundo, pero nunca podrá tener ______"
   },
   {
     "id": 703,
     "tipo": "negra",
-    "texto": "¿Qué es lo peor que te podés tatuar borracho?"
+    "texto": "¿Qué es lo peor que te podés tatuar borracho? ______"
   },
   {
     "id": 704,
     "tipo": "negra",
-    "texto": "Llegué tarde porque había un piquete a favor de"
+    "texto": "Llegué tarde porque había un piquete a favor de ______"
   },
   {
     "id": 705,
     "tipo": "negra",
-    "texto": "La secuela de Charlie y la fábrica de chocolate debería llamarse Charlie y"
+    "texto": "La secuela de Charlie y la fábrica de chocolate debería llamarse Charlie y ______"
   },
   {
     "id": 706,
     "tipo": "negra",
-    "texto": "No hay nada más triste que"
+    "texto": "No hay nada más triste que ______"
   },
   {
     "id": 707,
     "tipo": "negra",
-    "texto": "No se la pude chupar. Tenía gusto a"
+    "texto": "No se la pude chupar. Tenía gusto a ______"
   },
   {
     "id": 708,
     "tipo": "negra",
-    "texto": "¿Qué cosa es legal pero va a dejar de serlo en 10 años?",
+    "texto": "¿Qué cosa es legal pero va a dejar de serlo en 10 años? ______",
     "articulo_opcional": true
   },
   {
     "id": 709,
     "tipo": "negra",
-    "texto": "Elige tu propia aventura: Eres un agente secreto contra"
+    "texto": "Elige tu propia aventura: Eres un agente secreto contra ______"
   },
   {
     "id": 710,
     "tipo": "negra",
-    "texto": "¿Cuál es tu secreto para ser tan sexy?"
+    "texto": "¿Cuál es tu secreto para ser tan sexy? ______"
   },
   {
     "id": 711,
     "tipo": "negra",
-    "texto": "Soy el genio de la lámpara y te concederé tres deseos, ¿cuál es el primero?"
+    "texto": "Soy el genio de la lámpara y te concederé tres deseos, ¿cuál es el primero? ______"
   },
   {
     "id": 712,
     "tipo": "negra",
-    "texto": "Nada es tan desagradable como masturbarse pensando en"
+    "texto": "Nada es tan desagradable como masturbarse pensando en ______"
   },
   {
     "id": 713,
     "tipo": "negra",
-    "texto": "Los ricos comen sushi sobre el cuerpo de una mujer desnuda. Los MUY ricos, sobre",
+    "texto": "Los ricos comen sushi sobre el cuerpo de una mujer desnuda. Los MUY ricos, sobre ______",
     "articulo_opcional": true
   },
   {
     "id": 714,
     "tipo": "negra",
-    "texto": "El mundo sería un mejor lugar sin"
+    "texto": "El mundo sería un mejor lugar sin ______"
   },
   {
     "id": 715,
     "tipo": "negra",
-    "texto": "El que depositó dólares, recibirá"
+    "texto": "El que depositó dólares, recibirá ______"
   },
   {
     "id": 716,
     "tipo": "negra",
-    "texto": "Hoy en yoga aprendimos tres posturas nuevas. La grulla, el loto y",
+    "texto": "Hoy en yoga aprendimos tres posturas nuevas. La grulla, el loto y ______",
     "articulo_opcional": true
   },
   {
     "id": 717,
     "tipo": "negra",
-    "texto": "Informe especial: El lado oscuro de"
+    "texto": "Informe especial: El lado oscuro de ______"
   },
   {
     "id": 718,
     "tipo": "negra",
-    "texto": "Según la Organización Mundial de la Salud no hay nada más peligroso que"
+    "texto": "Según la Organización Mundial de la Salud no hay nada más peligroso que ______"
   },
   {
     "id": 719,
     "tipo": "negra",
-    "texto": "Todo bien con el colectivo y la birome, pero el mejor invento argentino es por lejos"
+    "texto": "Todo bien con el colectivo y la birome, pero el mejor invento argentino es por lejos ______"
   },
   {
     "id": 720,
     "tipo": "negra",
-    "texto": "Cuando era chico, todos los años le pedía a Papá Noel lo mismo:"
+    "texto": "Cuando era chico, todos los años le pedía a Papá Noel lo mismo: ______"
   },
   {
     "id": 721,
     "tipo": "negra",
-    "texto": "¿Qué tiene que tener tu pareja ideal?"
+    "texto": "¿Qué tiene que tener tu pareja ideal? ______"
   },
   {
     "id": 722,
     "tipo": "negra",
-    "texto": "De los caballeros de la mesa redonda, el que más me gusta es Sir",
+    "texto": "De los caballeros de la mesa redonda, el que más me gusta es Sir ______",
     "articulo_opcional": true
   },
   {
     "id": 723,
     "tipo": "negra",
-    "texto": "Nada le gusta tanto a un cura como",
+    "texto": "Nada le gusta tanto a un cura como ______",
     "articulo_opcional": true
   },
   {
     "id": 724,
     "tipo": "negra",
-    "texto": "Club Atlético",
+    "texto": "Club Atlético ______",
     "articulo_opcional": true
   },
   {
     "id": 725,
     "tipo": "negra",
-    "texto": "Mis viejos se unieron a una secta nueva que adora"
+    "texto": "Mis viejos se unieron a una secta nueva que adora ______"
   },
   {
     "id": 726,
     "tipo": "negra",
     "texto": "El piropo más raro que me dijeron: \"Quisiera ser ______ para ______ vos\".",
-    "articulo_opcional": true
+    "articulo_opcional": true,
+    "doble_respuesta": true
   },
   {
     "id": 727,
     "tipo": "negra",
-    "texto": "Qué ganas de hacer un trío con ______ y ______"
+    "texto": "Qué ganas de hacer un trío con ______ y ______",
+    "doble_respuesta": true
   },
   {
     "id": 728,
     "tipo": "negra",
-    "texto": "El frente para la Victoria tiene a La Cámpora, Cambiemos tiene",
+    "texto": "El frente para la Victoria tiene a La Cámpora, Cambiemos tiene ______",
     "articulo_opcional": true
   },
   {
@@ -1029,12 +3673,13 @@
   {
     "id": 730,
     "tipo": "negra",
-    "texto": "Y el premio ______ es para ______"
+    "texto": "Y el premio ______ es para ______",
+    "doble_respuesta": true
   },
   {
     "id": 731,
     "tipo": "negra",
-    "texto": "Acabo de terminar de leer una novela erótica sobre",
+    "texto": "Acabo de terminar de leer una novela erótica sobre ______",
     "articulo_opcional": true
   },
   {
@@ -1045,58 +3690,58 @@
   {
     "id": 733,
     "tipo": "negra",
-    "texto": "En lugar de rendir el final tuvimos que preparar una monografía sobre"
+    "texto": "En lugar de rendir el final tuvimos que preparar una monografía sobre ______"
   },
   {
     "id": 734,
     "tipo": "negra",
-    "texto": "El gobierno planea reemplazar el Obelisco con un monumento a",
+    "texto": "El gobierno planea reemplazar el Obelisco con un monumento a ______",
     "articulo_opcional": true
   },
   {
     "id": 735,
     "tipo": "negra",
-    "texto": "En el nombre del Padre, del Hijo y de"
+    "texto": "En el nombre del Padre, del Hijo y de ______"
   },
   {
     "id": 736,
     "tipo": "negra",
-    "texto": "-¿Por qué llora Quico? -Por"
+    "texto": "-¿Por qué llora Quico? -Por ______"
   },
   {
     "id": 737,
     "tipo": "negra",
-    "texto": "Cada vez hay más gente con fobia a"
+    "texto": "Cada vez hay más gente con fobia a ______"
   },
   {
     "id": 738,
     "tipo": "negra",
-    "texto": "Debo confesarlo, tengo un fetiche con"
+    "texto": "Debo confesarlo, tengo un fetiche con ______"
   },
   {
     "id": 739,
     "tipo": "negra",
-    "texto": "Mi pareja me dejó por"
+    "texto": "Mi pareja me dejó por ______"
   },
   {
     "id": 740,
     "tipo": "negra",
-    "texto": "Soy capaz de tolerar cualquier cosa, excepto"
+    "texto": "Soy capaz de tolerar cualquier cosa, excepto ______"
   },
   {
     "id": 741,
     "tipo": "negra",
-    "texto": "Arqueólogos descubren que los antiguos egipcios amaban"
+    "texto": "Arqueólogos descubren que los antiguos egipcios amaban ______"
   },
   {
     "id": 742,
     "tipo": "negra",
-    "texto": "Antes de morir, Nostradamus predijo la llegada de"
+    "texto": "Antes de morir, Nostradamus predijo la llegada de ______"
   },
   {
     "id": 743,
     "tipo": "negra",
-    "texto": "¿Qué guarda Batman en lo más profundo de la Baticueva?"
+    "texto": "¿Qué guarda Batman en lo más profundo de la Baticueva? ______"
   },
   {
     "id": 744,
@@ -1107,61 +3752,62 @@
   {
     "id": 745,
     "tipo": "negra",
-    "texto": "Vuelve el boxeo al Luna Park: \"______\" Calderón vs. \"______\" Salazar."
+    "texto": "Vuelve el boxeo al Luna Park: \"______\" Calderón vs. \"______\" Salazar.",
+    "doble_respuesta": true
   },
   {
     "id": 746,
     "tipo": "negra",
-    "texto": "(Nombrá a un jugador de la mesa) usa el mismo password para todo:",
+    "texto": "(Nombrá a un jugador de la mesa) usa el mismo password para todo: ______",
     "articulo_opcional": true
   },
   {
     "id": 747,
     "tipo": "negra",
-    "texto": "Olmedo y Porcel presentan: A las chicas les gusta",
+    "texto": "Olmedo y Porcel presentan: A las chicas les gusta ______",
     "articulo_opcional": true
   },
- {
+  {
     "id": 748,
     "tipo": "negra",
-    "texto": "Volveré y seré"
+    "texto": "Volveré y seré ______"
   },
   {
     "id": 749,
     "tipo": "negra",
-    "texto": "El próximo presidente va a ganar las elecciones con una campaña basada en"
+    "texto": "El próximo presidente va a ganar las elecciones con una campaña basada en ______"
   },
   {
     "id": 750,
     "tipo": "negra",
-    "texto": "Reforma impositiva: polémica por el nuevo impuesto a",
+    "texto": "Reforma impositiva: polémica por el nuevo impuesto a ______",
     "articulo_opcional": true
   },
   {
     "id": 751,
     "tipo": "negra",
-    "texto": "Hay un nuevo partido político en Argentina: Juntos por"
+    "texto": "Hay un nuevo partido político en Argentina: Juntos por ______"
   },
   {
     "id": 752,
     "tipo": "negra",
-    "texto": "En uno de los cuadernos de las coimas, había un gasto de 500 lucas en"
+    "texto": "En uno de los cuadernos de las coimas, había un gasto de 500 lucas en ______"
   },
   {
     "id": 753,
     "tipo": "negra",
-    "texto": "La izquierda tiene menos chances de ganar las elecciones que"
+    "texto": "La izquierda tiene menos chances de ganar las elecciones que ______"
   },
   {
     "id": 754,
     "tipo": "negra",
-    "texto": "Soy incorruptible, excepto que me coimeen con",
+    "texto": "Soy incorruptible, excepto que me coimeen con ______",
     "articulo_opcional": true
   },
   {
     "id": 755,
     "tipo": "negra",
-    "texto": "El Congreso lleva 10 días seguidos debatiendo sobre"
+    "texto": "El Congreso lleva 10 días seguidos debatiendo sobre ______"
   },
   {
     "id": 756,
@@ -1172,69 +3818,70 @@
   {
     "id": 757,
     "tipo": "negra",
-    "texto": "Estalló la revuelta social. La gente pide a gritos",
+    "texto": "Estalló la revuelta social. La gente pide a gritos ______",
     "articulo_opcional": true
   },
   {
     "id": 758,
     "tipo": "negra",
-    "texto": "No es una verdadera orgía sin enanos, ______ y ______"
+    "texto": "No es una verdadera orgía sin enanos, ______ y ______",
+    "doble_respuesta": true
   },
   {
     "id": 759,
     "tipo": "negra",
-    "texto": "Como dijo mi peluquera: La diferencia entre coger y hacer el amor es",
+    "texto": "Como dijo mi peluquera: La diferencia entre coger y hacer el amor es ______",
     "articulo_opcional": true
   },
   {
     "id": 760,
     "tipo": "negra",
-    "texto": "El despertar sexual de (nombrá al jugador de tu derecha) fue gracias a",
+    "texto": "El despertar sexual de (nombrá al jugador de tu derecha) fue gracias a ______",
     "articulo_opcional": true
   },
   {
     "id": 761,
     "tipo": "negra",
-    "texto": "¿Qué pretende usted de mí?"
+    "texto": "¿Qué pretende usted de mí? ______"
   },
   {
     "id": 762,
     "tipo": "negra",
-    "texto": "Después de garchar necesito 10 minutitos de"
+    "texto": "Después de garchar necesito 10 minutitos de ______"
   },
   {
     "id": 763,
     "tipo": "negra",
-    "texto": "Mi vieja entró al cuarto justo cuando miraba una porno sobre",
+    "texto": "Mi vieja entró al cuarto justo cuando miraba una porno sobre ______",
     "articulo_opcional": true
   },
   {
     "id": 764,
     "tipo": "negra",
-    "texto": "En la vida, solo existe una cosa mejor que ponerla:",
+    "texto": "En la vida, solo existe una cosa mejor que ponerla: ______",
     "articulo_opcional": true
   },
   {
     "id": 765,
     "tipo": "negra",
-    "texto": "Subieron un video íntimo mío a Pornhub. Lo titularon:",
+    "texto": "Subieron un video íntimo mío a Pornhub. Lo titularon: ______",
     "articulo_opcional": true
   },
   {
     "id": 766,
     "tipo": "negra",
-    "texto": "Todos sabemos que (nombrá al jugador de tu izquierda) se masturba mirando",
+    "texto": "Todos sabemos que (nombrá al jugador de tu izquierda) se masturba mirando ______",
     "articulo_opcional": true
   },
   {
     "id": 767,
     "tipo": "negra",
-    "texto": "Lo opuesto a coger es"
+    "texto": "Lo opuesto a coger es ______"
   },
   {
     "id": 768,
     "tipo": "negra",
-    "texto": "El peor tema de conversación para impresionar a alguien que te gusta es"
+    "texto": "El peor tema de conversación para impresionar a alguien que te gusta es ______"
   },
   {
     "id": 769,
@@ -1249,7 +3896,7 @@
   {
     "id": 771,
     "tipo": "negra",
-    "texto": "Pocos lo saben, pero cuando era joven al presidente lo arrestaron por"
+    "texto": "Pocos lo saben, pero cuando era joven al presidente lo arrestaron por ______"
   },
   {
     "id": 772,
@@ -1259,7 +3906,7 @@
   {
     "id": 773,
     "tipo": "negra",
-    "texto": "Me hicieron el Test de Rorschach. Lo primero que vi fue"
+    "texto": "Me hicieron el Test de Rorschach. Lo primero que vi fue ______"
   },
   {
     "id": 774,
@@ -1269,7 +3916,7 @@
   {
     "id": 775,
     "tipo": "negra",
-    "texto": "En el primer guion de la película Náufrago, en vez de una pelota Tom Hanks hablaba con",
+    "texto": "En el primer guion de la película Náufrago, en vez de una pelota Tom Hanks hablaba con ______",
     "articulo_opcional": true
   },
   {
@@ -1285,43 +3932,44 @@
   {
     "id": 778,
     "tipo": "negra",
-    "texto": "Comprueban que la pedofilia es causada por"
+    "texto": "Comprueban que la pedofilia es causada por ______"
   },
   {
     "id": 779,
     "tipo": "negra",
-    "texto": "Hoy es viernes de",
+    "texto": "Hoy es viernes de ______",
     "articulo_opcional": true
   },
   {
     "id": 780,
     "tipo": "negra",
-    "texto": "Ehh ameo, no tené un peso pa'"
+    "texto": "Ehh ameo, no tené un peso pa' ______"
   },
   {
     "id": 781,
     "tipo": "negra",
-    "texto": "La única solución para el problema de (nombrá al jugador de tu izquierda) es"
+    "texto": "La única solución para el problema de (nombrá al jugador de tu izquierda) es ______"
   },
   {
     "id": 782,
     "tipo": "negra",
-    "texto": "Todos los días muere alguien por"
+    "texto": "Todos los días muere alguien por ______"
   },
   {
     "id": 783,
     "tipo": "negra",
-    "texto": "Dicen que originalmente La dama y el vagabundo se iba a llamar La dama y"
+    "texto": "Dicen que originalmente La dama y el vagabundo se iba a llamar La dama y ______"
   },
   {
     "id": 784,
     "tipo": "negra",
-    "texto": "Tuve que hacer una cuadra de cola para"
+    "texto": "Tuve que hacer una cuadra de cola para ______"
   },
   {
     "id": 785,
     "tipo": "negra",
-    "texto": "Con la compra de ______ más $50 te llevás ______"
+    "texto": "Con la compra de ______ más $50 te llevás ______",
+    "doble_respuesta": true
   },
   {
     "id": 786,
@@ -1336,34 +3984,34 @@
   {
     "id": 788,
     "tipo": "negra",
-    "texto": "¿En qué piensa Messi antes de patear un penal?"
+    "texto": "¿En qué piensa Messi antes de patear un penal? ______"
   },
   {
     "id": 789,
     "tipo": "negra",
-    "texto": "No me vengan con boludeces, el sexto grande es",
+    "texto": "No me vengan con boludeces, el sexto grande es ______",
     "articulo_opcional": true
   },
   {
     "id": 790,
     "tipo": "negra",
-    "texto": "Para motivar a los jugadores, el técnico les pasó un video de"
+    "texto": "Para motivar a los jugadores, el técnico les pasó un video de ______"
   },
   {
     "id": 791,
     "tipo": "negra",
-    "texto": "En un partido del Federal A, amonestaron a un jugador por"
+    "texto": "En un partido del Federal A, amonestaron a un jugador por ______"
   },
   {
     "id": 792,
     "tipo": "negra",
-    "texto": "La hinchada tenía una bandera que decía: Basta de",
+    "texto": "La hinchada tenía una bandera que decía: Basta de ______",
     "articulo_opcional": true
   },
   {
     "id": 793,
     "tipo": "negra",
-    "texto": "Pedí un 4 y me trajeron",
+    "texto": "Pedí un 4 y me trajeron ______",
     "articulo_opcional": true
   },
   {
@@ -1374,31 +4022,31 @@
   {
     "id": 795,
     "tipo": "negra",
-    "texto": "Hay una fuerte interna en la barra causada por",
+    "texto": "Hay una fuerte interna en la barra causada por ______",
     "articulo_opcional": true
   },
   {
     "id": 796,
     "tipo": "negra",
-    "texto": "30 años después, Bilardo contó que en el bidón había restos de",
+    "texto": "30 años después, Bilardo contó que en el bidón había restos de ______",
     "articulo_opcional": true
   },
   {
     "id": 797,
     "tipo": "negra",
-    "texto": "Alguien lo tiene que decir: el fútbol está manejado por",
+    "texto": "Alguien lo tiene que decir: el fútbol está manejado por ______",
     "articulo_opcional": true
   },
   {
     "id": 798,
     "tipo": "negra",
-    "texto": "Me paró la policía y me pidió que abra el baúl. Adentro encontraron restos de",
+    "texto": "Me paró la policía y me pidió que abra el baúl. Adentro encontraron restos de ______",
     "articulo_opcional": true
   },
   {
     "id": 799,
     "tipo": "negra",
-    "texto": "¿Cuál es tu pecado, hijo mío?"
+    "texto": "¿Cuál es tu pecado, hijo mío? ______"
   },
   {
     "id": 800,
@@ -1409,28 +4057,28 @@
   {
     "id": 801,
     "tipo": "negra",
-    "texto": "Ya tiene media sanción el proyecto para cambiar el sol de la bandera argentina por",
+    "texto": "Ya tiene media sanción el proyecto para cambiar el sol de la bandera argentina por ______",
     "articulo_opcional": true
   },
   {
     "id": 802,
     "tipo": "negra",
-    "texto": "Inspirado en los tiempos que corren, la ONU presentó su nuevo logo:"
+    "texto": "Inspirado en los tiempos que corren, la ONU presentó su nuevo logo: ______"
   },
   {
     "id": 803,
     "tipo": "negra",
-    "texto": "¿A qué se parece (nombrá un jugador de la mesa)?"
+    "texto": "¿A qué se parece (nombrá un jugador de la mesa)? ______"
   },
   {
     "id": 804,
     "tipo": "negra",
-    "texto": "8 de cada 10 argentinos eligen"
+    "texto": "8 de cada 10 argentinos eligen ______"
   },
   {
     "id": 805,
     "tipo": "negra",
-    "texto": "Entre los murales del Hospital de Niños, hay uno de"
+    "texto": "Entre los murales del Hospital de Niños, hay uno de ______"
   },
   {
     "id": 806,
@@ -1440,70 +4088,71 @@
   {
     "id": 807,
     "tipo": "negra",
-    "texto": "Llega a la Argentina la telenovela colombiana que está batiendo todos los récords: Pasión de"
+    "texto": "Llega a la Argentina la telenovela colombiana que está batiendo todos los récords: Pasión de ______"
   },
   {
     "id": 808,
     "tipo": "negra",
-    "texto": "Según el budismo, si hacés todo mal en esta vida, en la siguiente podés reencarnar como:"
+    "texto": "Según el budismo, si hacés todo mal en esta vida, en la siguiente podés reencarnar como: ______"
   },
   {
     "id": 809,
     "tipo": "negra",
-    "texto": "La religión no es otra cosa que",
+    "texto": "La religión no es otra cosa que ______",
     "articulo_opcional": true
   },
   {
     "id": 810,
     "tipo": "negra",
     "texto": "Solo los más devotos conocen el último milagro de Jesús, cuando convirtió ______ en ______",
-    "articulo_opcional": true
+    "articulo_opcional": true,
+    "doble_respuesta": true
   },
   {
     "id": 811,
     "tipo": "negra",
-    "texto": "En el séptimo día Dios descansó, y en el octavo no le quedó otra que"
+    "texto": "En el séptimo día Dios descansó, y en el octavo no le quedó otra que ______"
   },
   {
     "id": 812,
     "tipo": "negra",
-    "texto": "¿Por qué tanta gente se convierte al Islam?"
+    "texto": "¿Por qué tanta gente se convierte al Islam? ______"
   },
   {
     "id": 813,
     "tipo": "negra",
-    "texto": "¿Cómo hizo el pueblo judío para sobrevivir tanto tiempo? Muy fácil:"
+    "texto": "¿Cómo hizo el pueblo judío para sobrevivir tanto tiempo? Muy fácil: ______"
   },
   {
     "id": 814,
     "tipo": "negra",
-    "texto": "Después de verlo/a tuve que darlo en adopción."
+    "texto": "Después de verlo/a tuve que darlo en adopción. ______"
   },
   {
     "id": 815,
     "tipo": "negra",
-    "texto": "Mi pasaje favorito de la Biblia es la párabola de"
+    "texto": "Mi pasaje favorito de la Biblia es la párabola de ______"
   },
   {
     "id": 816,
     "tipo": "negra",
-    "texto": "El quinto Jinete del Apocalipsis es"
+    "texto": "El quinto Jinete del Apocalipsis es ______"
   },
   {
     "id": 817,
     "tipo": "negra",
-    "texto": "Según mi coach espiritual, mi yo interior me pide",
+    "texto": "Según mi coach espiritual, mi yo interior me pide ______",
     "articulo_opcional": true
   },
   {
     "id": 818,
     "tipo": "negra",
-    "texto": "Mi horóscopo dice que se me vienen tiempos de"
+    "texto": "Mi horóscopo dice que se me vienen tiempos de ______"
   },
   {
     "id": 819,
     "tipo": "negra",
-    "texto": "Después de confesarme, el cura me hizo rezar 10 padrenuestros y"
+    "texto": "Después de confesarme, el cura me hizo rezar 10 padrenuestros y ______"
   },
   {
     "id": 820,
@@ -1513,39 +4162,40 @@
   {
     "id": 821,
     "tipo": "negra",
-    "texto": "Preguntale a (nombrá al jugador de tu derecha), siempre tiene ganas de",
+    "texto": "Preguntale a (nombrá al jugador de tu derecha), siempre tiene ganas de ______",
     "articulo_opcional": true
   },
   {
     "id": 822,
     "tipo": "negra",
-    "texto": "Al final lo convencieron para que haga el atentado. Eso sí, en vez de 72 vírgenes, pidió",
+    "texto": "Al final lo convencieron para que haga el atentado. Eso sí, en vez de 72 vírgenes, pidió ______",
     "articulo_opcional": true
   },
   {
     "id": 823,
     "tipo": "negra",
-    "texto": "El nuevo empleado es muy capaz y ademas tiene el don de"
+    "texto": "El nuevo empleado es muy capaz y ademas tiene el don de ______"
   },
   {
     "id": 824,
     "tipo": "negra",
-    "texto": "Gané un día de spa. Incluye sesión de masajes, baño turco y"
+    "texto": "Gané un día de spa. Incluye sesión de masajes, baño turco y ______"
   },
   {
     "id": 825,
     "tipo": "negra",
-    "texto": "Entre ______ y ______ no sé qué es peor."
+    "texto": "Entre ______ y ______ no sé qué es peor.",
+    "doble_respuesta": true
   },
   {
     "id": 826,
     "tipo": "negra",
-    "texto": "Tanto escándalo por",
+    "texto": "Tanto escándalo por ______",
     "articulo_opcional": true
   },
   {
     "id": 827,
     "tipo": "negra",
-    "texto": "Lo mejor que podés hacer con tus sobrinitos este finde es"
+    "texto": "Lo mejor que podés hacer con tus sobrinitos este finde es ______"
   }
 ]
