@@ -80,7 +80,7 @@ function publicRoom(room) {
   if (['results', 'game_over'].includes(room.phase)) {
     pub.lastRoundResult = room.lastRoundResult;
     pub.revealedSubmissions = (room.shuffledSubmissions || []).map(s => ({
-      card: s.card.texto,
+      cards: s.cards.map(c => c.texto),
       playerName: room.players.find(p => p.id === s.playerId)?.name || '?',
       isWinner: s.playerId === room.lastRoundResult?.winnerPlayerId,
     }));
@@ -248,7 +248,7 @@ io.on('connection', socket => {
   });
 
   // ── JUGADOR ENVÍA SU CARTA BLANCA ──────────────────────────────────────────────
-  socket.on('submit_card', ({ cardIndex }, cb) => {
+  socket.on('submit_card', ({ cardIndices }, cb) => {
     const roomCode = socket.data.roomCode;
     const room = rooms[roomCode];
     if (!room || room.phase !== 'choosing') return cb({ success: false, error: 'Fase incorrecta.' });
@@ -258,16 +258,35 @@ io.on('connection', socket => {
 
     const hdp = room.players[room.hdpIndex];
     if (hdp.id === socket.id) return cb({ success: false, error: 'El HDP no envía cartas.' });
-    if (room.submissions[socket.id]) return cb({ success: false, error: 'Ya enviaste una carta.' });
+    if (room.submissions[socket.id]) return cb({ success: false, error: 'Ya enviaste tu respuesta.' });
 
-    if (typeof cardIndex !== 'number' || cardIndex < 0 || cardIndex >= player.hand.length)
-      return cb({ success: false, error: 'Carta inválida.' });
+    const expectedCount = (room.currentBlackCard && room.currentBlackCard.doble_respuesta) ? 2 : 1;
 
-    const card = player.hand[cardIndex];
-    room.submissions[socket.id] = card;
-    player.hand.splice(cardIndex, 1); // Remover carta de la mano
+    if (!Array.isArray(cardIndices) || cardIndices.length !== expectedCount) {
+      return cb({ success: false, error: `Debes enviar exactamente ${expectedCount} carta(s).` });
+    }
 
-    console.log(`🃏 ${player.name} envió carta en ${roomCode}`);
+    // Verificar índices válidos
+    const hasInvalid = cardIndices.some(idx => typeof idx !== 'number' || idx < 0 || idx >= player.hand.length);
+    if (hasInvalid) {
+      return cb({ success: false, error: 'Cartas seleccionadas inválidas.' });
+    }
+
+    // Asegurarse de que no haya índices duplicados en el envío
+    const uniqueIndices = [...new Set(cardIndices)];
+    if (uniqueIndices.length !== expectedCount) {
+      return cb({ success: false, error: 'No puedes enviar la misma carta dos veces.' });
+    }
+
+    // Extraer cartas
+    const submittedCards = cardIndices.map(idx => player.hand[idx]);
+    room.submissions[socket.id] = submittedCards;
+
+    // Remover del mazo del jugador (en orden inverso de índice para evitar que se desfacen)
+    const sortedIndices = [...cardIndices].sort((a, b) => b - a);
+    sortedIndices.forEach(idx => player.hand.splice(idx, 1));
+
+    console.log(`🃏 ${player.name} envió ${expectedCount} carta(s) en ${roomCode}`);
 
     // Solo jugadores activos (sin HDP y sin espectadores) deben enviar
     const nonHdpActivePlayers = room.players.filter(p => p.id !== hdp.id && !p.isSpectator);
@@ -279,21 +298,24 @@ io.on('connection', socket => {
     // Si todos los activos enviaron → fase de votación
     if (submittedCount >= nonHdpActivePlayers.length) {
       room.shuffledSubmissions = shuffle(
-        Object.entries(room.submissions).map(([playerId, submCard]) => ({ playerId, card: submCard }))
+        Object.entries(room.submissions).map(([playerId, submCards]) => ({
+          playerId,
+          cards: Array.isArray(submCards) ? submCards : [submCards]
+        }))
       );
       room.phase = 'voting';
 
       io.to(roomCode).emit('room_updated', publicRoom(room));
-      // HDP recibe las cartas anónimas y mezcladas
+      // HDP recibe las cartas anónimas y mezcladas (cada entrada es string[])
       io.to(hdp.id).emit('voting_submissions', {
-        submissions: room.shuffledSubmissions.map(s => s.card.texto),
+        submissions: room.shuffledSubmissions.map(s => s.cards.map(c => c.texto)),
       });
       // Los espectadores también reciben las cartas para mostrarlas en pantalla
       room.players
         .filter(p => p.isSpectator)
         .forEach(spectator => {
           io.to(spectator.id).emit('voting_submissions', {
-            submissions: room.shuffledSubmissions.map(s => s.card.texto),
+            submissions: room.shuffledSubmissions.map(s => s.cards.map(c => c.texto)),
           });
         });
       console.log(`🗳️  Todos enviaron en ${roomCode} → votación`);
@@ -319,7 +341,7 @@ io.on('connection', socket => {
 
     room.lastRoundResult = {
       winnerName: winnerPlayer?.name || '?',
-      winnerCard: winner.card.texto,
+      winnerCards: winner.cards.map(c => c.texto),
       winnerPlayerId: winner.playerId,
     };
 
@@ -333,7 +355,7 @@ io.on('connection', socket => {
       room.phase = 'results';
     }
 
-    console.log(`🏅 ${winnerPlayer?.name} ganó la ronda: "${winner.card.texto}"`);
+    console.log(`🏅 ${winnerPlayer?.name} ganó la ronda con: ${winner.cards.map(c => c.texto).join(' + ')}`);
     io.to(roomCode).emit('room_updated', publicRoom(room));
     cb({ success: true });
   });
