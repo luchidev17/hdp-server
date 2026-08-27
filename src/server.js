@@ -114,11 +114,17 @@ io.on('connection', socket => {
   console.log(`✅ Conectado: ${socket.id}`);
 
   // ── CREAR SALA ────────────────────────────────────────────────────────────────
-  socket.on('create_room', ({ playerName }, cb) => {
+  socket.on('create_room', ({ playerName, isSpectator }, cb) => {
     if (!playerName?.trim()) return cb({ success: false, error: 'Nombre requerido.' });
 
     const roomCode = generateRoomCode();
-    const player = { id: socket.id, name: playerName.trim(), score: 0, hand: [] };
+    const player = {
+      id: socket.id,
+      name: playerName.trim(),
+      score: 0,
+      hand: [],
+      isSpectator: !!isSpectator
+    };
 
     rooms[roomCode] = {
       code: roomCode,
@@ -138,9 +144,10 @@ io.on('connection', socket => {
     socket.join(roomCode);
     socket.data.roomCode = roomCode;
     socket.data.playerName = playerName.trim();
+    socket.data.isSpectator = !!isSpectator;
 
-    console.log(`🏠 Sala creada: ${roomCode} por ${playerName}`);
-    cb({ success: true, roomCode, playerId: socket.id });
+    console.log(`🏠 Sala creada: ${roomCode} por ${playerName}${isSpectator ? ' (espectador)' : ''}`);
+    cb({ success: true, roomCode, playerId: socket.id, isSpectator: !!isSpectator });
     io.to(roomCode).emit('room_updated', publicRoom(rooms[roomCode]));
   });
 
@@ -187,7 +194,8 @@ io.on('connection', socket => {
     // Resetear y barajar mazos
     room.whiteDeck = shuffle([...CARDS.white]);
     room.blackDeck = shuffle([...CARDS.black]);
-    room.hdpIndex = 0;
+    const firstActiveIdx = room.players.findIndex(p => !p.isSpectator);
+    room.hdpIndex = firstActiveIdx !== -1 ? firstActiveIdx : 0;
     room.submissions = {};
     room.shuffledSubmissions = [];
     room.lastRoundResult = null;
@@ -373,8 +381,12 @@ io.on('connection', socket => {
     if (room.hostId !== socket.id) return cb({ success: false, error: 'Solo el host puede continuar.' });
     if (room.phase !== 'results') return cb({ success: false, error: 'Fase incorrecta.' });
 
-    // Rotar el HDP
-    room.hdpIndex = (room.hdpIndex + 1) % room.players.length;
+    // Rotar el HDP saltándose a los espectadores
+    let nextIdx = room.hdpIndex;
+    do {
+      nextIdx = (nextIdx + 1) % room.players.length;
+    } while (room.players[nextIdx].isSpectator && nextIdx !== room.hdpIndex);
+    room.hdpIndex = nextIdx;
 
     // Reponer mazos si es necesario
     refillDecks(room);
